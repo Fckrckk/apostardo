@@ -1,0 +1,108 @@
+name: APOSTARDO - Ampliar historial OpenFootball
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '31 5 * * *'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: apostardo-historial
+  cancel-in-progress: false
+
+jobs:
+  historial:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Descargar repositorio
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - name: Python 3.12
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Descargar datos historicos con procedencia
+        shell: bash
+        run: |
+          python - <<'PY'
+          import datetime as dt
+          import json
+          import os
+          import time
+          from pathlib import Path
+          from urllib.error import HTTPError, URLError
+          from urllib.request import Request, urlopen
+
+          BASE = 'https://raw.githubusercontent.com/openfootball/football.json/master'
+          LEAGUES = {'en.1': 'Premier League', 'es.1': 'Primera Division', 'de.1': 'Bundesliga', 'it.1': 'Serie A', 'fr.1': 'Ligue 1'}
+          SEASONS = ('2023-24', '2024-25', '2025-26', '2026-27')
+          events, warnings = [], []
+          now = dt.datetime.now(dt.timezone.utc).isoformat()
+
+          for season in SEASONS:
+              for code, league in LEAGUES.items():
+                  url = f'{BASE}/{season}/{code}.json'
+                  try:
+                      request = Request(url, headers={'User-Agent': 'APOSTARDO-research/4.2', 'Accept': 'application/json'})
+                      with urlopen(request, timeout=25) as response:
+                          doc = json.load(response)
+                      matches = doc.get('matches')
+                      if not isinstance(matches, list):
+                          raise ValueError('Formato sin partidos')
+                      for match in matches:
+                          home, away, date = match.get('team1'), match.get('team2'), match.get('date')
+                          if not all(isinstance(x, str) and x for x in (home, away, date)):
+                              continue
+                          raw_score = match.get('score')
+                          full = raw_score.get('ft') if isinstance(raw_score, dict) else None
+                          half = raw_score.get('ht') if isinstance(raw_score, dict) else None
+                          valid = lambda v: isinstance(v, list) and len(v) == 2 and all(type(n) is int and n >= 0 for n in v)
+                          score = {'home': full[0], 'away': full[1]} if valid(full) else {'home': None, 'away': None}
+                          ht = {'home': half[0], 'away': half[1]} if valid(half) else None
+                          event_id = f'openfootball-{season}-{code}-{date}-{home}-{away}'
+                          events.append({
+                              'id': event_id, 'sport': 'Fútbol', 'name': f'{home} vs {away}',
+                              'league': league, 'season': season, 'date': date,
+                              'home': home, 'away': away, 'score': score,
+                              'half_time': ht, 'round': match.get('round'),
+                              'status': 'FINISHED' if valid(full) else 'SCHEDULED',
+                              'source': 'OpenFootball', 'source_url': url,
+                              'license': 'CC0-1.0', 'updated_at': now
+                          })
+                  except (HTTPError, URLError, TimeoutError, OSError, ValueError, json.JSONDecodeError) as exc:
+                      warnings.append(f'{season}/{code}: {type(exc).__name__} ({getattr(exc, "code", "sin codigo")})')
+                  time.sleep(0.1)
+
+          if not events:
+              raise SystemExit('Sin datos nuevos. Se conserva el historial anterior.')
+          events.sort(key=lambda e: (e['date'], e['league'], e['home'], e['away']))
+          data = {
+              'generated_at': now, 'source': 'OpenFootball', 'license': 'CC0-1.0',
+              'source_url': 'https://github.com/openfootball/football.json',
+              'status': 'partial' if warnings else 'complete',
+              'warnings': warnings, 'events': events,
+          }
+          path = Path('data/openfootball.json')
+          path.parent.mkdir(parents=True, exist_ok=True)
+          tmp = path.with_suffix('.json.tmp')
+          tmp.write_text(json.dumps(data, ensure_ascii=False, separators=(',', ':')) + '\n', encoding='utf-8')
+          os.replace(tmp, path)
+          print(f'Historial: {len(events)} registros. Fuentes con avisos: {len(warnings)}')
+          PY
+      - name: Publicar historial en el repositorio
+        shell: bash
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/openfootball.json
+          if ! git diff --cached --quiet; then
+            git commit -m 'Ampliar historial de futbol desde OpenFootball'
+            git pull --rebase
+            git push
+          else
+            echo 'No hubo cambios en el historial.'
+          fi
