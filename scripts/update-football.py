@@ -11,14 +11,14 @@ TOKEN = os.environ.get('FOOTBALL_DATA_API_KEY', '').strip()
 if not TOKEN:
     raise SystemExit('Falta FOOTBALL_DATA_API_KEY; no se modifica data/football.json')
 now = dt.datetime.now(dt.timezone.utc)
-start = (now - dt.timedelta(days=2)).date().isoformat()
+start = (now - dt.timedelta(days=90)).date().isoformat()
 end = (now + dt.timedelta(days=14)).date().isoformat()
 competitions = ['PL', 'PD', 'BL1', 'SA', 'FL1']
 items = []
 errors = []
 for code in competitions:
     url = f'https://api.football-data.org/v4/competitions/{code}/matches?dateFrom={start}&dateTo={end}'
-    req = Request(url, headers={'X-Auth-Token': TOKEN, 'Accept': 'application/json', 'User-Agent': 'APOSTARDO/3.0'})
+    req = Request(url, headers={'X-Auth-Token': TOKEN, 'Accept': 'application/json', 'User-Agent': 'APOSTARDO/3.1'})
     try:
         with urlopen(req, timeout=25) as res:
             payload = json.load(res)
