@@ -1,0 +1,2921 @@
+{
+  "generated_at": "2026-11-23T03:30:03.176216+00:00",
+  "source": "football-data.org",
+  "competitions_requested": [
+    "PL",
+    "PD",
+    "BL1",
+    "SA",
+    "FL1"
+  ],
+  "errors": [],
+  "events": [
+    {
+      "id": "football-560643",
+      "sport": "Fútbol",
+      "name": "Manchester City FC vs Fulham FC",
+      "league": "Premier League",
+      "date": "2026-11-21T12:30:00Z",
+      "status": "FINISHED",
+      "home": "Manchester City FC",
+      "away": "Fulham FC",
+      "score": {
+        "home": 1,
+        "away": 1
+      },
+      "matchday": 11,
+      "source": "football-data.org",
+      "source_url": "https://www.football-data.org/",
+      "updated_at": "2026-11-23T03:30:03.176216+00:00",
+      "quality": "Datos básicos de una fuente; sin validación cruzada"
+    },
+    {
+      "id": "football-564755",
+      "sport": "Fútbol",
+      "name": "Deportivo Alavés vs RC Deportivo La Coruña",
+      "league": "Primera Division",
+      "date": "2026-11-21T13:00:00Z",
+      "status": "FINISHED",
+      "home": "Deportivo Alavés",
+      "away": "RC Deportivo La Coruña",
+      "score": {
+        "home": 3,
+        "away": 1
+      },
+      "matchday": 13,
+      "source": "football-data.org",
+      "source_url": "https://www.football-data.org/",
+      "updated_at": "2026-11-23T03:30:03.176216+00:00",
+      "quality": "Datos básicos de una fuente; sin validación cruzada"
+    },
+    {
+      "id": "football-558525",
+      "sport": "Fútbol",
+      "name": "Como 1907 vs Cagliari Calcio",
+      "league": "Serie A",
+      "date": "2026-11-21T14:00:00Z",
+      "status": "FINISHED",
+      "home": "Como 1907",
+      "away": "Cagliari Calcio",
+      "score": {
+        "home": 2,
+        "away": 0
+      },
+      "matchday": 12,
+      "source": "football-data.org",
+      "source_url": "https://www.football-data.org/",
+      "updated_at": "2026-11-23T03:30:03.176216+00:00",
+      "quality": "Datos básicos de una fuente; sin validación cruzada"
+    },
+    {
+      "id": "football-558528",
+      "sport": "Fútbol",
+      "name": "SS Lazio vs US Lecce",
+      "league": "Serie A",
+      "date": "2026-11-21T14:00:00Z",
+      "status": "FINISHED",
+      "home": "SS Lazio",
+      "away": "US Lecce",
+      "score": {
+        "home": 3,
+        "away": 0
+      },
+      "matchday": 12,
+      "source": "football-data.org",
+      "source_url": "https://www.football-data.org/",
+      "updated_at": "2026-11-23T03:30:03.176216+00:00",
+      "quality": "Datos básicos de una fuente; sin validación cruzada"
+    },
+    {
+      "id": "football-565857",
+      "sport": "Fútbol",
+      "name": "Bayer 04 Leverkusen vs SC Paderborn 07",
+      "league": "Bundesliga",
+      "date": "2026-11-21T14:30:00Z",
+      "status": "FINISHED",
+      "home": "Bayer 04 Leverkusen",
+      "away": "SC Paderborn 07",
+      "score": {
+        "home": 4,
+        "away": 0
+      },
+      "matchday": 10,
+      "source": "football-data.org",
+      "source_url": "https://www.football-data.org/",
+      "updated_at": "2026-11-23T03:30:03.176216+00:00",
+      "quality": "Datos básicos de una fuente; sin validación cruzada"
+    },
+    {
+      "id": "football-565858",
+      "sport": "Fútbol",
+      "name": "1. FC Union Berlin vs RB Leipzig",
+      "league": "Bundesliga",
+      "date": "2026-11-21T14:30:00Z",
+      "status": "FINISHED",
+      "home": "1. FC Union Berlin",
+      "away": "RB Leipzig",
+      "score": {
+        "home": 1,
+        "away": 5
+      },
+      "matchday": 10,
+      "source": "football-data.org",
+      "source_url": "https://www.football-data.org/",
+      "updated_at": "2026-11-23T03:30:03.176216+00:00",
+      "quality": "Datos básicos de una fuente; sin validación cruzada"
+    },
+    {
+      "id": "football-565860",
+      "sport": "Fútbol",
+      "name": "SV 07 Elversberg vs SC Freiburg",
+      "league": "Bundesliga",
+      "date": "2026-11-21T14:30:00Z",
+      "status": "FINISHED",
+      "home": "SV 07 Elversberg",
+      "away": "SC Freiburg",
+      "score": {
+        "home": 0,
+        "away": 1
+      },
+      "matchday": 10,
+      "source": "football-data.org",
+      "source_url": "https://www.football-data.org/",
+      "updated_at": "2026-11-23T03:30:03.176216+00:00",
+      "quality": "Datos básicos de una fuente; sin validación cruzada"
+    },
+    {
+      "id": "football-565862",
+      "sport": "Fútbol",
+      "name": "Borussia Mönchengladbach vs Borussia Dortmund",
+      "league": "Bundesliga",
+      "date": "2026-11-21T14:30:00Z",
+      "status": "FINISHED",
+      "home": "Borussia Mönchengladbach",
+      "away": "Borussia Dortmund",
+      "score": {
+        "home": 0,
+        "away": 1
+      },
+      "matchday": 10,
+      "source": "football-data.org",
+      "source_url": "https://www.football-data.org/",
+      "updated_at": "2026-11-23T03:30:03.176216+00:00",
+      "quality": "Datos básicos de una fuente; sin validación cruzada"
+    },
+    {
+      "id": "football-565865",
+      "sport": "Fútbol",
+      "name": "Eintracht Frankfurt vs TSG 1899 Hoffenheim",
+      "league": "Bundesliga",
+      "date": "2026-11-21T14:30:00Z",
+      "status": "FINISHED",
+      "home": "Eintracht Frankfurt",
+      "away": "TSG 1899 Hoffenheim",
+      "score": {
+        "home": 1,
+        "away": 0
+      },
+      "matchday": 10,
+      "source": "football-data.org",
+      "source_url": "https://www.football-data.org/",
+      "updated_at": "2026-11-23T03:30:03.176216+00:00",
+      "quality": "Datos básicos de una fuente; sin validación cruzada"
+    },
+    {
+      "id": "football-560642",
+      "sport": "Fútbol",
+      "name": "Chelsea FC vs Leeds United FC",
+      "league": "Premier League",
+      "date": "2026-11-21T15:00:00Z",
+      "status": "FINISHED",
+      "home": "Chelsea FC",
+      "away": "Leeds United FC",
+      "score": {
+        "home": 1,
+        "away": 4
+      },
+      "matchday": 11,
+      "source": "football-data.org",
+      "source_url": "https://www.football-data.org/",
+      "updated_at": "2026-11-23T03:30:03.176216+00:00",
+      "quality": "Datos básicos de una fuente; sin validación cruzada"
+    },
+    {
+      "id": "football-560644",
+      "sport": "Fútbol",
+      "name": "Aston Villa FC vs Sunderland AFC",
+      "league": "Premier League",
+      "date": "2026-11-21T15:00:00Z",
+      "status": "FINISHED",
+      "home": "Aston Villa FC",
+      "away": "Sunderland AFC",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "matchday": 11,
+      "source": "football-data.org",
+      "source_url": "https://www.football-data.org/",
+      "updated_at": "2026-11-23T03:30:03.176216+00:00",
+      "quality": "Datos básicos de una fuente; sin validación cruzada"
+    },
+    {
+      "id": "football-560647",
+      "sport": "Fútbol",
+      "name": "AFC Bournemouth vs Nottingham Forest FC",
+      "league": "Premier League",
+      "date": "2026-11-21T15:00:00Z",
+      "status": "FINISHED",
+      "home": "AFC Bournemouth",
+      "away": "Nottingham Forest FC",
+      "score": {
+        "home": 2,
+        "away": 0
+      },
+      "matchday": 11,
+      "source": "football-data.org",
+      "source_url": "https://www.football-data.org/",
+      "updated_at": "2026-11-23T03:30:03.176216+00:00",
+      "quality": "Datos básicos de una fuente; sin validación cruzada"
+    },
+    {
+      "id": "football-560648",
+      "sport": "Fútbol",
+      "name": "Tottenham Hotspur FC vs Ipswich Town FC",
+      "league": "Premier League",
+      "date": "2026-11-21T15:00:00Z",
+      "status": "FINISHED",
+      "home": "Tottenham Hotspur FC",
+      "away": "Ipswich Town FC",
+      "score": {
+        "home": 2,
+        "away": 0
+      },
+      "matchday": 11,
+      "source": "football-data.org",
+      "source_url": "https://www.football-data.org/",
+      "updated_at": "2026-11-23T03:30:03.176216+00:00",
+      "quality": "Datos básicos de una fuente; sin validación cruzada"
+    },
+    {
+      "id": "football-560650",
+      "sport": "Fútbol",
+      "name": "Coventry City FC vs Crystal Palace FC",
+      "league": "Premier League",
+      "date": "2026-11-21T15:00:00Z",
+      "status": "FINISHED",
+      "home": "Coventry City FC",
+      "away": "Crystal Palace FC",
+      "score": {
+        "home": 3,
+        "away": 2
+      },
+      "matchday": 11,
+      "source": "football-data.org",
+      "source_url": "https://www.football-data.org/",
+      "updated_at": "2026-11-23T03:30:03.176216+00:00",
+      "quality": "Datos básicos de una fuente; sin validación cruzada"
+    },
+    {
+      "id": "football-564751",
+      "sport": "Fútbol",
+      "name": "Rayo Vallecano de Madrid vs Valencia CF",
+      "league": "Primera Division",
+      "date": "2026-11-21T15:15:00Z",
+      "status": "FINISHED",
+      "home": "Rayo Vallecano de Madrid",
+      "away": "Valencia CF",
+      "score": {
+        "home": 0,
+        "away": 1
+      },
+      "matchday": 13,
+      "source": "football-data.org",
+      "source_url": "https://www.football-data.org/",
+      "updated_at": "2026-11-23T03:30:03.176216+00:00",
+      "quality": "Datos básicos de una fuente; sin validación cruzada"
+    },
+    {
+      "id": "football-559628",
+      "sport": "Fútbol",
+      "name": "OGC Nice vs Paris Saint-Germain FC",
+      "league": "Ligue 1",
+      "date": "2026-11-21T16:15:00Z",
+      "status": "FINISHED",
+      "home": "OGC Nice",
+      "away": "Paris Saint-Germain FC",
+      "score": {
+        "home": 2,
+        "away": 3
+      },
+      "matchday": 11,
+      "source": "football-data.org",
+      "source_url": "https://www.football-data.org/",
+      "updated_at": "2026-11-23T03:30:03.176216+00:00",
+      "quality": "Datos básicos de una fuente; sin validación cruzada"
+    },
+    {
+      "id": "football-558526",
+      "sport": "Fútbol",
+      "name": "Parma Calcio 1913 vs AS Roma",
+      "league": "Serie A",
+      "date": "2026-11-21T17:00:00Z",
+      "status": "FINISHED",
+      "home": "Parma Calcio 1913",
+      "away": "AS Roma",
+      "score": {
+        "home": 1,
+        "away": 5
+      },
+      "matchday": 12,
+      "source": "football-data.org",
+      "source_url": "https://www.football-data.org/",
+      "updated_at": "2026-11-23T03:30:03.176216+00:00",
+      "quality": "Datos básicos de una fuente; sin validación cruzada"
+    },
+    {
+      "id": "football-560651",
+      "sport": "Fútbol",
+      "name": "Newcastle United FC vs Arsenal FC",
+      "league": "Premier League",
+      "date": "2026-11-21T17:30:00Z",
+      "status": "FINISHED",
+      "home": "Newcastle United FC",
+      "away": "Arsenal FC",
+      "score": {
+        "home": 2,
+        "away": 2
+      },
+      "matchday": 11,
+      "source": "football-data.org",
+      "source_url": "https://www.football-data.org/",
+      "updated_at": "2026-11-23T03:30:03.176216+00:00",
+      "quality": "Datos básicos de una fuente; sin validación cruzada"
+    },
+    {
+      "id": "football-564756",
+      "sport": "Fútbol",
+      "name": "Sevilla FC vs Real Betis Balompié",
+      "league": "Primera Division",
+      "date": "2026-11-21T17:30:00Z",
+      "status": "FINISHED",
+      "home": "Sevilla FC",
+      "away": "Real Betis Balompié",
+      "score": {
+        "home": 1,
+        "away": 1
+      },
+      "matchday": 13,
+      "source": "football-data.org",
+      "source_url": "https://www.football-data.org/",
+      "updated_at": "2026-11-23T03:30:03.176216+00:00",
+      "quality": "Datos básicos de una fuente; sin validación cruzada"
+    },
+    {
+      "id": "football-565861",
+      "sport": "Fútbol",
+      "name": "FC Schalke 04 vs VfB Stuttgart",
+      "league": "Bundesliga",
+      "date": "2026-11-21T17:30:00Z",
+      "status": "FINISHED",
+      "home": "FC Schalke 04",
+      "away": "VfB Stuttgart",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "matchday": 10,
+      "source": "football-data.org",
+      "source_url": "https://www.football-data.org/",
+      "updated_at": "2026-11-23T03:30:03.176216+00:00",
+      "quality": "Datos básicos de una fuente; sin validación cruzada"
+    },
+    {
+      "id": "football-558527",
+      "sport": "Fútbol",
+      "name": "SSC Napoli vs Torino FC",
+      "league": "Serie A",
+      "date": "2026-11-21T19:45:00Z",
+      "status": "FINISHED",
+      "home": "SSC Napoli",
+      "away": "Torino FC",
+      "score": {
+        "home": 1,
+        "away": 0
+      },
+      "matchday": 12,
+      "source": "football-data.org",
+      "source_url": "https://www.football-data.org/",
+      "updated_at": "2026-11-23T03:30:03.176216+00:00",
+      "quality": "Datos básicos de una fuente; sin validación cruzada"
+    },
+    {
+      "id": "football-559621",
+      "sport": "Fútbol",
+      "name": "AS Monaco FC vs AJ Auxerre",
+      "league": "Ligue 1",
+      "date": "2026-11-21T19:45:00Z",
+      "status": "FINISHED",
+      "home": "AS Monaco FC",
+      "away": "AJ Auxerre",
+      "score": {
+        "home": 1,
+        "away": 1
+      },
+      "matchday": 11,
+      "source": "football-data.org",
+      "source_url": "https://www.football-data.org/",
+      "updated_at": "2026-11-23T03:30:03.176216+00:00",
+      "quality": "Datos básicos de una fuente; sin validación cruzada"
+    },
+    {
+      "id": "football-559623",
+      "sport": "Fútbol",
+      "name": "Racing Club de Lens vs Toulouse FC",
+      "league": "Ligue 1",
+      "date": "2026-11-21T19:45:00Z",
+      "status": "FINISHED",
+      "home": "Racing Club de Lens",
+      "away": "Toulouse FC",
+      "score": {
+        "home": 1,
+        "away": 1
+      },
+      "matchday": 11,
+      "source": "football-data.org",
+      "source_url": "https://www.football-data.org/",
+      "updated_at": "2026-11-23T03:30:03.176216+00:00",
+      "quality": "Datos básicos de una fuente; sin validación cruzada"
+    },
+    {
+      "id": "football-559624",
+      "sport": "Fútbol",
+      "name": "Lille OSC vs Olympique Lyonnais",
+      "league": "Ligue 1",
+      "date": "2026-11-21T19:45:00Z",
+      "status": "FINISHED",
+      "home": "Lille OSC",
+      "away": "Olympique Lyonnais",
+      "score": {
+        "home": 0,
+        "away": 1
+      },
+      "matchday": 11,
+      "source": "football-data.org",
+      "source_url": "https://www.football-data.org/",
+      "updated_at": "2026-11-23T03:30:03.176216+00:00",
+      "quality": "Datos básicos de una fuente; sin validación cruzada"
+    },
+    {
+      "id": "football-559627",
+      "sport": "Fútbol",
+      "name": "RC Strasbourg Alsace vs Stade Brestois 29",
+      "league": "Ligue 1",
+      "date": "2026-11-21T19:45:00Z",
+      "status": "FINISHED",
+      "home": "RC Strasbourg Alsace",
+      "away": "Stade Brestois 29",
+      "score": {
+        "home": 0,
+        "away": 1
+      },
+      "matchday": 11,
+      "source": "football-data.org",
+      "source_url": "https://www.football-data.org/",
+      "updated_at": "2026-11-23T03:30:03.176216+00:00",
+      "quality": "Datos básicos de una fuente; sin validación cruzada"
+    },
+    {
+      "id": "football-564754",
+      "sport": "Fútbol",
+      "name": "Real Madrid CF vs RC Celta de Vigo",
+      "league": "Primera Division",
+      "date": "2026-11-21T20:00:00Z",
+      "status": "FINISHED",
+      "home": "Real Madrid CF",
+      "away": "RC Celta de Vigo",
+      "score": {
+        "home": 2,
+        "away": 1
+      },
+      "matchday": 13,
+      "source": "football-data.org",
+      "source_url": "https://www.football-data.org/",
+      "updated_at": "2026-11-23T03:30:03.176216+00:00",
+      "quality": "Datos básicos de una fuente; sin validación cruzada"
+    },
+    {
+      "id": "football-558521",
+      "sport": "Fútbol",
+      "name": "Juventus FC vs Venezia FC",
+      "league": "Serie A",
+      "date": "2026-11-22T11:30:00Z",
+      "status": "FINISHED",
+      "home": "Juventus FC",
+      "away": "Venezia FC",
+      "score": {
+        "home": 4,
+        "away": 0
+      },
+      "matchday": 12,
+      "source": "football-data.org",
+      "source_url": "https://www.football-data.org/",
+      "updated_at": "2026-11-23T03:30:03.176216+00:00",
+      "quality": "Datos básicos de una fuente; sin validación cruzada"
+    },
+    {
+      "id": "football-564749",
+      "sport": "Fútbol",
+      "name": "FC Barcelona vs Villarreal CF",
+      "league": "Primera Division",
+      "date": "2026-11-22T13:00:00Z",
+      "status": "FINISHED",
+      "home": "FC Barcelona",
+      "away": "Villarreal CF",
+      "score": {
+        "home": 3,
+        "away": 2
+      },
+      "matchday": 13,
+      "source": "football-data.org",
+      "source_url": "https://www.football-data.org/",
+      "updated_at": "2026-11-23T03:30:03.176216+00:00",
+      "quality": "Datos básicos de una fuente; sin validación cruzada"
+    },
+    {
+      "id": "football-560646",
+      "sport": "Fútbol",
+      "name": "Hull City AFC vs Brighton & Hove Albion FC",
+      "league": "Premier League",
+      "date": "2026-11-22T14:00:00Z",
+      "status": "FINISHED",
+      "home": "Hull City AFC",
+      "away": "Brighton & Hove Albion FC",
+      "score": {
+        "home": 2,
+        "away": 0
+      },
+      "matchday": 11,
+      "source": "football-data.org",
+      "source_url": "https://www.football-data.org/",
+      "updated_at": "2026-11-23T03:30:03.176216+00:00",
+      "quality": "Datos básicos de una fuente; sin validación cruzada"
+    },
+    {
+      "id": "football-558522",
+      "sport": "Fútbol",
+      "name": "Bologna FC 1909 vs Udinese Calcio",
+      "league": "Serie A",
+      "date": "2026-11-22T14:00:00Z",
+      "status": "FINISHED",
+      "home": "Bologna FC 1909",
+      "away": "Udinese Calcio",
+      "score": {
+        "home": 1,
+        "away": 1
+      },
+      "matchday": 12,
+      "source": "football-data.org",
+      "source_url": "https://www.football-data.org/",
+      "updated_at": "2026-11-23T03:30:03.176216+00:00",
+      "quality": "Datos básicos de una fuente; sin validación cruzada"
+    },
+    {
+      "id": "football-558524",
+      "sport": "Fútbol",
+      "name": "US Sassuolo Calcio vs Genoa CFC",
+      "league": "Serie A",
+      "date": "2026-11-22T14:00:00Z",
+      "status": "FINISHED",
+      "home": "US Sassuolo Calcio",
+      "away": "Genoa CFC",
+      "score": {
+        "home": 0,
+        "away": 2
+      },
+      "matchday": 12,
+      "source": "football-data.org",
+      "source_url": "https://www.football-data.org/",
+      "updated_at": "2026-11-23T03:30:03.176216+00:00",
+      "quality": "Datos básicos de una fuente; sin validación cruzada"
+    },
+    {
+      "id": "football-559625",
+      "sport": "Fútbol",
+      "name": "Paris FC vs Angers SCO",
+      "league": "Ligue 1",
+      "date": "2026-11-22T14:00:00Z",
+      "status": "FINISHED",
+      "home": "Paris FC",
+      "away": "Angers SCO",
+      "score": {
+        "home": 4,
+        "away": 0
+      },
+      "matchday": 11,
+      "source": "football-data.org",
+      "source_url": "https://www.football-data.org/",
+      "updated_at": "2026-11-23T03:30:03.176216+00:00",
+      "quality": "Datos básicos de una fuente; sin validación cruzada"
+    },
+    {
+      "id": "football-565864",
+      "sport": "Fútbol",
+      "name": "FC Augsburg vs 1. FSV Mainz 05",
+      "league": "Bundesliga",
+      "date": "2026-11-22T14:30:00Z",
+      "status": "FINISHED",
+      "home": "FC Augsburg",
+      "away": "1. FSV Mainz 05",
+      "score": {
+        "home": 3,
+        "away": 1
+      },
+      "matchday": 10,
+      "source": "football-data.org",
+      "source_url": "https://www.football-data.org/",
+      "updated_at": "2026-11-23T03:30:03.176216+00:00",
+      "quality": "Datos básicos de una fuente; sin validación cruzada"
+    },
+    {
+      "id": "football-564750",
+      "sport": "Fútbol",
+      "name": "Real Racing Club de Santander vs Real Sociedad de Fútbol",
+      "league": "Primera Division",
+      "date": "2026-11-22T15:15:00Z",
+      "status": "FINISHED",
+      "home": "Real Racing Club de Santander",
+      "away": "Real Sociedad de Fútbol",
+      "score": {
+        "home": 3,
+        "away": 2
+      },
+      "matchday": 13,
+      "source": "football-data.org",
+      "source_url": "https://www.football-data.org/",
+      "updated_at": "2026-11-23T03:30:03.176216+00:00",
+      "quality": "Datos básicos de una fuente; sin validación cruzada"
+    },
+    {
+      "id": "football-559626",
+      "sport": "Fútbol",
+      "name": "FC Lorient vs Stade Rennais FC 1901",
+      "league": "Ligue 1",
+      "date": "2026-11-22T16:15:00Z",
+      "status": "FINISHED",
+      "home": "FC Lorient",
+      "away": "Stade Rennais FC 1901",
+      "score": {
+        "home": 1,
+        "away": 1
+      },
+      "matchday": 11,
+      "source": "football-data.org",
+      "source_url": "https://www.football-data.org/",
+      "updated_at": "2026-11-23T03:30:03.176216+00:00",
+      "quality": "Datos básicos de una fuente; sin validación cruzada"
+    },
+    {
+      "id": "football-560645",
+      "sport": "Fútbol",
+      "name": "Liverpool FC vs Manchester United FC",
+      "league": "Premier League",
+      "date": "2026-11-22T16:30:00Z",
+      "status": "FINISHED",
+      "home": "Liverpool FC",
+      "away": "Manchester United FC",
+      "score": {
+        "home": 4,
+        "away": 0
+      },
+      "matchday": 11,
+      "source": "football-data.org",
+      "source_url": "https://www.football-data.org/",
+      "updated_at": "2026-11-23T03:30:03.176216+00:00",
+      "quality": "Datos básicos de una fuente; sin validación cruzada"
+    },
+    {
+      "id": "football-565863",
+      "sport": "Fútbol",
+      "name": "SV Werder Bremen vs Hamburger SV",
+      "league": "Bundesliga",
+      "date": "2026-11-22T16:30:00Z",
+      "status": "FINISHED",
+      "home": "SV Werder Bremen",
+      "away": "Hamburger SV",
+      "score": {
+        "home": 4,
+        "away": 0
+      },
+      "matchday": 10,
+      "source": "football-data.org",
+      "source_url": "https://www.football-data.org/",
+      "updated_at": "2026-11-23T03:30:03.176216+00:00",
+      "quality": "Datos básicos de una fuente; sin validación cruzada"
+    },
+    {
+      "id": "football-558523",
+      "sport": "Fútbol",
+      "name": "AC Milan vs Frosinone Calcio",
+      "league": "Serie A",
+      "date": "2026-11-22T17:00:00Z",
+      "status": "FINISHED",
+      "home": "AC Milan",
+      "away": "Frosinone Calcio",
+      "score": {
+        "home": 5,
+        "away": 1
+      },
+      "matchday": 12,
+      "source": "football-data.org",
+      "source_url": "https://www.football-data.org/",
+      "updated_at": "2026-11-23T03:30:03.176216+00:00",
+      "quality": "Datos básicos de una fuente; sin validación cruzada"
+    },
+    {
+      "id": "football-564752",
+      "sport": "Fútbol",
+      "name": "CA Osasuna vs Málaga CF",
+      "league": "Primera Division",
+      "date": "2026-11-22T17:30:00Z",
+      "status": "FINISHED",
+      "home": "CA Osasuna",
+      "away": "Málaga CF",
+      "score": {
+        "home": 1,
+        "away": 0
+      },
+      "matchday": 13,
+      "source": "football-data.org",
+      "source_url": "https://www.football-data.org/",
+      "updated_at": "2026-11-23T03:30:03.176216+00:00",
+      "quality": "Datos básicos de una fuente; sin validación cruzada"
+    },
+    {
+      "id": "football-558520",
+      "sport": "Fútbol",
+      "name": "Atalanta BC vs FC Internazionale Milano",
+      "league": "Serie A",
+      "date": "2026-11-22T19:45:00Z",
+      "status": "FINISHED",
+      "home": "Atalanta BC",
+      "away": "FC Internazionale Milano",
+      "score": {
+        "home": 4,
+        "away": 4
+      },
+      "matchday": 12,
+      "source": "football-data.org",
+      "source_url": "https://www.football-data.org/",
+      "updated_at": "2026-11-23T03:30:03.176216+00:00",
+      "quality": "Datos básicos de una fuente; sin validación cruzada"
+    },
+    {
+      "id": "football-559629",
+      "sport": "Fútbol",
+      "name": "Olympique de Marseille vs Le Mans FC",
+      "league": "Ligue 1",
+      "date": "2026-11-22T19:45:00Z",
+      "status": "FINISHED",
+      "home": "Olympique de Marseille",
+      "away": "Le Mans FC",
+      "score": {
+        "home": 2,
+        "away": 3
+      },
+      "matchday": 11,
+      "source": "football-data.org",
+      "source_url": "https://www.football-data.org/",
+      "updated_at": "2026-11-23T03:30:03.176216+00:00",
+      "quality": "Datos básicos de una fuente; sin validación cruzada"
+    },
+    {
+      "id": "football-564753",
+      "sport": "Fútbol",
+      "name": "Getafe CF vs Club Atlético de Madrid",
+      "league": "Primera Division",
+      "date": "2026-11-22T20:00:00Z",
+      "status": "FINISHED",
+      "home": "Getafe CF",
+      "away": "Club Atlético de Madrid",
+      "score": {
+        "home": 0,
+        "away": 3
+      },
+      "matchday": 13,
+      "source": "football-data.org",
+      "source_url": "https://www.football-data.org/",
+      "updated_at": "2026-11-23T03:30:03.176216+00:00",
+      "quality": "Datos básicos de una fuente; sin validación cruzada"
+    },
+    {
+      "id": "football-558519",
+      "sport": "Fútbol",
+      "name": "AC Monza vs ACF Fiorentina",
+      "league": "Serie A",
+      "date": "2026-11-23T19:45:00Z",
+      "status": "TIMED",
+      "home": "AC Monza",
+      "away": "ACF Fiorentina",
+      "score": {
+        "home": null,
+        "away": null
+      },
+      "matchday": 12,
+      "source": "football-data.org",
+      "source_url": "https://www.football-data.org/",
+      "updated_at": "2026-11-23T03:30:03.176216+00:00",
+      "quality": "Datos básicos de una fuente; sin validación cruzada"
+    },
+    {
+      "id": "football-560649",
+      "sport": "Fútbol",
+      "name": "Brentford FC vs Everton FC",
+      "league": "Premier League",
+      "date": "2026-11-23T20:00:00Z",
+      "status": "TIMED",
+      "home": "Brentford FC",
+      "away": "Everton FC",
+      "score": {
+        "home": null,
+        "away": null
+      },
+      "matchday": 11,
+      "source": "football-data.org",
+      "source_url": "https://www.football-data.org/",
+      "updated_at": "2026-11-23T03:30:03.176216+00:00",
+      "quality": "Datos básicos de una fuente; sin validación cruzada"
+    },
+    {
+      "id": "football-564757",
+      "sport": "Fútbol",
+      "name": "Levante UD vs Elche CF",
+      "league": "Primera Division",
+      "date": "2026-11-23T20:00:00Z",
+      "status": "TIMED",
+      "home": "Levante UD",
+      "away": "Elche CF",
+      "score": {
+        "home": null,
+        "away": null
+      },
+      "matchday": 13,
+      "source": "football-data.org",
+      "source_url": "https://www.football-data.org/",
+      "updated_at": "2026-11-23T03:30:03.176216+00:00",
+      "quality": "Datos básicos de una fuente; sin validación cruzada"
+    },
+    {
+      "id": "football-565869",
+      "sport": "Fútbol",
+      "name": "SV Werder Bremen vs Borussia Mönchengladbach",
+      "league": "Bundesliga",
+      "date": "2026-11-27T19:30:00Z",
+      "status": "TIMED",
+      "home": "SV Werder Bremen",
+      "away": "Borussia Mönchengladbach",
+      "score": {
+        "home": null,
+        "away": null
+      },
+      "matchday": 11,
+      "source": "football-data.org",
+      "source_url": "https://www.football-data.org/",
+      "updated_at": "2026-11-23T03:30:03.176216+00:00",
+      "quality": "Datos básicos de una fuente; sin validación cruzada"
+    },
+    {
+      "id": "football-558515",
+      "sport": "Fútbol",
+      "name": "Venezia FC vs Bologna FC 1909",
+      "league": "Serie A",
+      "date": "2026-11-27T19:45:00Z",
+      "status": "TIMED",
+      "home": "Venezia FC",
+      "away": "Bologna FC 1909",
+      "score": {
+        "home": null,
+        "away": null
+      },
+      "matchday": 13,
+      "source": "football-data.org",
+      "source_url": "https://www.football-data.org/",
+      "updated_at": "2026-11-23T03:30:03.176216+00:00",
+      "quality": "Datos básicos de una fuente; sin validación cruzada"
+    },
+    {
+      "id": "football-559616",
+      "sport": "Fútbol",
+      "name": "Stade Brestois 29 vs Paris FC",
+      "league": "Ligue 1",
+      "date": "2026-11-27T19:45:00Z",
+      "status": "TIMED",
+      "home": "Stade Brestois 29",
+      "away": "Paris FC",
+      "score": {
+        "home": null,
+        "away": null
+      },
+      "matchday": 12,
+      "source": "football-data.org",
+      "source_url": "https://www.football-data.org/",
+      "updated_at": "2026-11-23T03:30:03.176216+00:00",
+      "quality": "Datos básicos de una fuente; sin validación cruzada"
+    },
+    {
+      "id": "football-560658",
+      "sport": "Fútbol",
+      "name": "Nottingham Forest FC vs Chelsea FC",
+      "league": "Premier League",
+      "date": "2026-11-27T20:00:00Z",
+      "status": "TIMED",
+      "home": "Nottingham Forest FC",
+      "away": "Chelsea FC",
+      "score": {
+        "home": null,
+        "away": null
+      },
+      "matchday": 12,
+      "source": "football-data.org",
+      "source_url": "https://www.football-data.org/",
+      "updated_at": "2026-11-23T03:30:03.176216+00:00",
+      "quality": "Datos básicos de una fuente; sin validación cruzada"
+    },
+    {
+      "id": "football-564765",
+      "sport": "Fútbol",
+      "name": "Levante UD vs Real Racing Club de Santander",
+      "league": "Primera Division",
+      "date": "2026-11-27T20:00:00Z",
+      "status": "TIMED",
+      "home": "Levante UD",
+      "away": "Real Racing Club de Santander",
+      "score": {
+        "home": null,
+        "away": null
+      },
+      "matchday": 14,
+      "source": "football-data.org",
+      "source_url": "https://www.football-data.org/",
+      "updated_at": "2026-11-23T03:30:03.176216+00:00",
+      "quality": "Datos básicos de una fuente; sin validación cruzada"
+    },
+    {
+      "id": "football-564760",
+      "sport": "Fútbol",
+      "name": "Real Betis Balompié vs Rayo Vallecano de Madrid",
+      "league": "Primera Division",
+      "date": "2026-11-28T13:00:00Z",
+      "status": "TIMED",
+      "home": "Real Betis Balompié",
+      "away": "Rayo Vallecano de Madrid",
+      "score": {
+        "home": null,
+        "away": null
+      },
+      "matchday": 14,
+      "source": "football-data.org",
+      "source_url": "https://www.football-data.org/",
+      "updated_at": "2026-11-23T03:30:03.176216+00:00",
+      "quality": "Datos básicos de una fuente; sin validación cruzada"
+    },
+    {
+      "id": "football-558513",
+      "sport": "Fútbol",
+      "name": "Frosinone Calcio vs Parma Calcio 1913",
+      "league": "Serie A",
+      "date": "2026-11-28T14:00:00Z",
+      "status": "TIMED",
+      "home": "Frosinone Calcio",
+      "away": "Parma Calcio 1913",
+      "score": {
+        "home": null,
+        "away": null
+      },
+      "matchday": 13,
+      "source": "football-data.org",
+      "source_url": "https://www.football-data.org/",
+      "updated_at": "2026-11-23T03:30:03.176216+00:00",
+      "quality": "Datos básicos de una fuente; sin validación cruzada"
+    },
+    {
+      "id": "football-565866",
+      "sport": "Fútbol",
+      "name": "1. FC Köln vs SV 07 Elversberg",
+      "league": "Bundesliga",
+      "date": "2026-11-28T14:30:00Z",
+      "status": "TIMED",
+      "home": "1. FC Köln",
+      "away": "SV 07 Elversberg",
+      "score": {
+        "home": null,
+        "away": null
+      },
+      "matchday": 11,
+      "source": "football-data.org",
+      "source_url": "https://www.football-data.org/",
+      "updated_at": "2026-11-23T03:30:03.176216+00:00",
+      "quality": "Datos básicos de una fuente; sin validación cruzada"
+    },
+    {
+      "id": "football-565867",
+      "sport": "Fútbol",
+      "name": "1. FSV Mainz 05 vs 1. FC Union Berlin",
+      "league": "Bundesliga",
+      "date": "2026-11-28T14:30:00Z",
+      "status": "TIMED",
+      "home": "1. FSV Mainz 05",
+      "away": "1. FC Union Berlin",
+      "score": {
+        "home": null,
+        "away": null
+      },
+      "matchday": 11,
+      "source": "football-data.org",
+      "source_url": "https://www.football-data.org/",
+      "updated_at": "2026-11-23T03:30:03.176216+00:00",
+      "quality": "Datos básicos de una fuente; sin validación cruzada"
+    },
+    {
+      "id": "football-565868",
+      "sport": "Fútbol",
+      "name": "SC Paderborn 07 vs FC Schalke 04",
+      "league": "Bundesliga",
+      "date": "2026-11-28T14:30:00Z",
+      "status": "TIMED",
+      "home": "SC Paderborn 07",
+      "away": "FC Schalke 04",
+      "score": {
+        "home": null,
+        "away": null
+      },
+      "matchday": 11,
+      "source": "football-data.org",
+      "source_url": "https://www.football-data.org/",
+      "updated_at": "2026-11-23T03:30:03.176216+00:00",
+      "quality": "Datos básicos de una fuente; sin validación cruzada"
+    },
+    {
+      "id": "football-565874",
+      "sport": "Fútbol",
+      "name": "Hamburger SV vs FC Bayern München",
+      "league": "Bundesliga",
+      "date": "2026-11-28T14:30:00Z",
+      "status": "TIMED",
+      "home": "Hamburger SV",
+      "away": "FC Bayern München",
+      "score": {
+        "home": null,
+        "away": null
+      },
+      "matchday": 11,
+      "source": "football-data.org",
+      "source_url": "https://www.football-data.org/",
+      "updated_at": "2026-11-23T03:30:03.176216+00:00",
+      "quality": "Datos básicos de una fuente; sin validación cruzada"
+    },
+    {
+      "id": "football-560652",
+      "sport": "Fútbol",
+      "name": "Leeds United FC vs Coventry City FC",
+      "league": "Premier League",
+      "date": "2026-11-28T15:00:00Z",
+      "status": "TIMED",
+      "home": "Leeds United FC",
+      "away": "Coventry City FC",
+      "score": {
+        "home": null,
+        "away": null
+      },
+      "matchday": 12,
+      "source": "football-data.org",
+      "source_url": "https://www.football-data.org/",
+      "updated_at": "2026-11-23T03:30:03.176216+00:00",
+      "quality": "Datos básicos de una fuente; sin validación cruzada"
+    },
+    {
+      "id": "football-560655",
+      "sport": "Fútbol",
+      "name": "Manchester United FC vs Brentford FC",
+      "league": "Premier League",
+      "date": "2026-11-28T15:00:00Z",
+      "status": "TIMED",
+      "home": "Manchester United FC",
+      "away": "Brentford FC",
+      "score": {
+        "home": null,
+        "away": null
+      },
+      "matchday": 12,
+      "source": "football-data.org",
+      "source_url": "https://www.football-data.org/",
+      "updated_at": "2026-11-23T03:30:03.176216+00:00",
+      "quality": "Datos básicos de una fuente; sin validación cruzada"
+    },
+    {
+      "id": "football-564767",
+      "sport": "Fútbol",
+      "name": "Málaga CF vs Athletic Club",
+      "league": "Primera Division",
+      "date": "2026-11-28T15:15:00Z",
+      "status": "TIMED",
+      "home": "Málaga CF",
+      "away": "Athletic Club",
+      "score": {
+        "home": null,
+        "away": null
+      },
+      "matchday": 14,
+      "source": "football-data.org",
+      "source_url": "https://www.football-data.org/",
+      "updated_at": "2026-11-23T03:30:03.176216+00:00",
+      "quality": "Datos básicos de una fuente; sin validación cruzada"
+    },
+    {
+      "id": "football-559612",
+      "sport": "Fútbol",
+      "name": "Angers SCO vs Racing Club de Lens",
+      "league": "Ligue 1",
+      "date": "2026-11-28T16:15:00Z",
+      "status": "TIMED",
+      "home": "Angers SCO",
+      "away": "Racing Club de Lens",
+      "score": {
+        "home": null,
+        "away": null
+      },
+      "matchday": 12,
+      "source": "football-data.org",
+      "source_url": "https://www.football-data.org/",
+      "updated_at": "2026-11-23T03:30:03.176216+00:00",
+      "quality": "Datos básicos de una fuente; sin validación cruzada"
+    },
+    {
+      "id": "football-558514",
+      "sport": "Fútbol",
+      "name": "Torino FC vs SS Lazio",
+      "league": "Serie A",
+      "date": "2026-11-28T17:00:00Z",
+      "status": "TIMED",
+      "home": "Torino FC",
+      "away": "SS Lazio",
+      "score": {
+        "home": null,
+        "away": null
+      },
+      "matchday": 13,
+      "source": "football-data.org",
+      "source_url": "https://www.football-data.org/",
+      "updated_at": "2026-11-23T03:30:03.176216+00:00",
+      "quality": "Datos básicos de una fuente; sin validación cruzada"
+    },
+    {
+      "id": "football-560653",
+      "sport": "Fútbol",
+      "name": "Ipswich Town FC vs Aston Villa FC",
+      "league": "Premier League",
+      "date": "2026-11-28T17:30:00Z",
+      "status": "TIMED",
+      "home": "Ipswich Town FC",
+      "away": "Aston Villa FC",
+      "score": {
+        "home": null,
+        "away": null
+      },
+      "matchday": 12,
+      "source": "football-data.org",
+      "source_url": "https://www.football-data.org/",
+      "updated_at": "2026-11-23T03:30:03.176216+00:00",
+      "quality": "Datos básicos de una fuente; sin validación cruzada"
+    },
+    {
+      "id": "football-564759",
+      "sport": "Fútbol",
+      "name": "Elche CF vs Club Atlético de Madrid",
+      "league": "Primera Division",
+      "date": "2026-11-28T17:30:00Z",
+      "status": "TIMED",
+      "home": "Elche CF",
+      "away": "Club Atlético de Madrid",
+      "score": {
+        "home": null,
+        "away": null
+      },
+      "matchday": 14,
+      "source": "football-data.org",
+      "source_url": "https://www.football-data.org/",
+      "updated_at": "2026-11-23T03:30:03.176216+00:00",
+      "quality": "Datos básicos de una fuente; sin validación cruzada"
+    },
+    {
+      "id": "football-565870",
+      "sport": "Fútbol",
+      "name": "VfB Stuttgart vs Eintracht Frankfurt",
+      "league": "Bundesliga",
+      "date": "2026-11-28T17:30:00Z",
+      "status": "TIMED",
+      "home": "VfB Stuttgart",
+      "away": "Eintracht Frankfurt",
+      "score": {
+        "home": null,
+        "away": null
+      },
+      "matchday": 11,
+      "source": "football-data.org",
+      "source_url": "https://www.football-data.org/",
+      "updated_at": "2026-11-23T03:30:03.176216+00:00",
+      "quality": "Datos básicos de una fuente; sin validación cruzada"
+    },
+    {
+      "id": "football-558518",
+      "sport": "Fútbol",
+      "name": "FC Internazionale Milano vs Genoa CFC",
+      "league": "Serie A",
+      "date": "2026-11-28T19:45:00Z",
+      "status": "TIMED",
+      "home": "FC Internazionale Milano",
+      "away": "Genoa CFC",
+      "score": {
+        "home": null,
+        "away": null
+      },
+      "matchday": 13,
+      "source": "football-data.org",
+      "source_url": "https://www.football-data.org/",
+      "updated_at": "2026-11-23T03:30:03.176216+00:00",
+      "quality": "Datos básicos de una fuente; sin validación cruzada"
+    },
+    {
+      "id": "football-559617",
+      "sport": "Fútbol",
+      "name": "Le Mans FC vs Lille OSC",
+      "league": "Ligue 1",
+      "date": "2026-11-28T19:45:00Z",
+      "status": "TIMED",
+      "home": "Le Mans FC",
+      "away": "Lille OSC",
+      "score": {
+        "home": null,
+        "away": null
+      },
+      "matchday": 12,
+      "source": "football-data.org",
+      "source_url": "https://www.football-data.org/",
+      "updated_at": "2026-11-23T03:30:03.176216+00:00",
+      "quality": "Datos básicos de una fuente; sin validación cruzada"
+    },
+    {
+      "id": "football-559620",
+      "sport": "Fútbol",
+      "name": "OGC Nice vs ES Troyes AC",
+      "league": "Ligue 1",
+      "date": "2026-11-28T19:45:00Z",
+      "status": "TIMED",
+      "home": "OGC Nice",
+      "away": "ES Troyes AC",
+      "score": {
+        "home": null,
+        "away": null
+      },
+      "matchday": 12,
+      "source": "football-data.org",
+      "source_url": "https://www.football-data.org/",
+      "updated_at": "2026-11-23T03:30:03.176216+00:00",
+      "quality": "Datos básicos de una fuente; sin validación cruzada"
+    },
+    {
+      "id": "football-559613",
+      "sport": "Fútbol",
+      "name": "Le Havre AC vs RC Strasbourg Alsace",
+      "league": "Ligue 1",
+      "date": "2026-11-28T19:45:00Z",
+      "status": "TIMED",
+      "home": "Le Havre AC",
+      "away": "RC Strasbourg Alsace",
+      "score": {
+        "home": null,
+        "away": null
+      },
+      "matchday": 12,
+      "source": "football-data.org",
+      "source_url": "https://www.football-data.org/",
+      "updated_at": "2026-11-23T03:30:03.176216+00:00",
+      "quality": "Datos básicos de una fuente; sin validación cruzada"
+    },
+    {
+      "id": "football-559614",
+      "sport": "Fútbol",
+      "name": "Paris Saint-Germain FC vs FC Lorient",
+      "league": "Ligue 1",
+      "date": "2026-11-28T19:45:00Z",
+      "status": "TIMED",
+      "home": "Paris Saint-Germain FC",
+      "away": "FC Lorient",
+      "score": {
+        "home": null,
+        "away": null
+      },
+      "matchday": 12,
+      "source": "football-data.org",
+      "source_url": "https://www.football-data.org/",
+      "updated_at": "2026-11-23T03:30:03.176216+00:00",
+      "quality": "Datos básicos de una fuente; sin validación cruzada"
+    },
+    {
+      "id": "football-564762",
+      "sport": "Fútbol",
+      "name": "Real Madrid CF vs Deportivo Alavés",
+      "league": "Primera Division",
+      "date": "2026-11-28T20:00:00Z",
+      "status": "TIMED",
+      "home": "Real Madrid CF",
+      "away": "Deportivo Alavés",
+      "score": {
+        "home": null,
+        "away": null
+      },
+      "matchday": 14,
+      "source": "football-data.org",
+      "source_url": "https://www.football-data.org/",
+      "updated_at": "2026-11-23T03:30:03.176216+00:00",
+      "quality": "Datos básicos de una fuente; sin validación cruzada"
+    },
+    {
+      "id": "football-558517",
+      "sport": "Fútbol",
+      "name": "Udinese Calcio vs ACF Fiorentina",
+      "league": "Serie A",
+      "date": "2026-11-29T11:30:00Z",
+      "status": "TIMED",
+      "home": "Udinese Calcio",
+      "away": "ACF Fiorentina",
+      "score": {
+        "home": null,
+        "away": null
+      },
+      "matchday": 13,
+      "source": "football-data.org",
+      "source_url": "https://www.football-data.org/",
+      "updated_at": "2026-11-23T03:30:03.176216+00:00",
+      "quality": "Datos básicos de una fuente; sin validación cruzada"
+    },
+    {
+      "id": "football-560656",
+      "sport": "Fútbol",
+      "name": "Everton FC vs Liverpool FC",
+      "league": "Premier League",
+      "date": "2026-11-29T12:00:00Z",
+      "status": "TIMED",
+      "home": "Everton FC",
+      "away": "Liverpool FC",
+      "score": {
+        "home": null,
+        "away": null
+      },
+      "matchday": 12,
+      "source": "football-data.org",
+      "source_url": "https://www.football-data.org/",
+      "updated_at": "2026-11-23T03:30:03.176216+00:00",
+      "quality": "Datos básicos de una fuente; sin validación cruzada"
+    },
+    {
+      "id": "football-564761",
+      "sport": "Fútbol",
+      "name": "Valencia CF vs CA Osasuna",
+      "league": "Primera Division",
+      "date": "2026-11-29T13:00:00Z",
+      "status": "TIMED",
+      "home": "Valencia CF",
+      "away": "CA Osasuna",
+      "score": {
+        "home": null,
+        "away": null
+      },
+      "matchday": 14,
+      "source": "football-data.org",
+      "source_url": "https://www.football-data.org/",
+      "updated_at": "2026-11-23T03:30:03.176216+00:00",
+      "quality": "Datos básicos de una fuente; sin validación cruzada"
+    },
+    {
+      "id": "football-558509",
+      "sport": "Fútbol",
+      "name": "US Sassuolo Calcio vs SSC Napoli",
+      "league": "Serie A",
+      "date": "2026-11-29T14:00:00Z",
+      "status": "TIMED",
+      "home": "US Sassuolo Calcio",
+      "away": "SSC Napoli",
+      "score": {
+        "home": null,
+        "away": null
+      },
+      "matchday": 13,
+      "source": "football-data.org",
+      "source_url": "https://www.football-data.org/",
+      "updated_at": "2026-11-23T03:30:03.176216+00:00",
+      "quality": "Datos básicos de una fuente; sin validación cruzada"
+    },
+    {
+      "id": "football-559619",
+      "sport": "Fútbol",
+      "name": "AJ Auxerre vs Olympique de Marseille",
+      "league": "Ligue 1",
+      "date": "2026-11-29T14:00:00Z",
+      "status": "TIMED",
+      "home": "AJ Auxerre",
+      "away": "Olympique de Marseille",
+      "score": {
+        "home": null,
+        "away": null
+      },
+      "matchday": 12,
+      "source": "football-data.org",
+      "source_url": "https://www.football-data.org/",
+      "updated_at": "2026-11-23T03:30:03.176216+00:00",
+      "quality": "Datos básicos de una fuente; sin validación cruzada"
+    },
+    {
+      "id": "football-560657",
+      "sport": "Fútbol",
+      "name": "Fulham FC vs AFC Bournemouth",
+      "league": "Premier League",
+      "date": "2026-11-29T14:05:00Z",
+      "status": "TIMED",
+      "home": "Fulham FC",
+      "away": "AFC Bournemouth",
+      "score": {
+        "home": null,
+        "away": null
+      },
+      "matchday": 12,
+      "source": "football-data.org",
+      "source_url": "https://www.football-data.org/",
+      "updated_at": "2026-11-23T03:30:03.176216+00:00",
+      "quality": "Datos básicos de una fuente; sin validación cruzada"
+    },
+    {
+      "id": "football-560659",
+      "sport": "Fútbol",
+      "name": "Brighton & Hove Albion FC vs Newcastle United FC",
+      "league": "Premier League",
+      "date": "2026-11-29T14:05:00Z",
+      "status": "TIMED",
+      "home": "Brighton & Hove Albion FC",
+      "away": "Newcastle United FC",
+      "score": {
+        "home": null,
+        "away": null
+      },
+      "matchday": 12,
+      "source": "football-data.org",
+      "source_url": "https://www.football-data.org/",
+      "updated_at": "2026-11-23T03:30:03.176216+00:00",
+      "quality": "Datos básicos de una fuente; sin validación cruzada"
+    },
+    {
+      "id": "football-560660",
+      "sport": "Fútbol",
+      "name": "Sunderland AFC vs Tottenham Hotspur FC",
+      "league": "Premier League",
+      "date": "2026-11-29T14:05:00Z",
+      "status": "TIMED",
+      "home": "Sunderland AFC",
+      "away": "Tottenham Hotspur FC",
+      "score": {
+        "home": null,
+        "away": null
+      },
+      "matchday": 12,
+      "source": "football-data.org",
+      "source_url": "https://www.football-data.org/",
+      "updated_at": "2026-11-23T03:30:03.176216+00:00",
+      "quality": "Datos básicos de una fuente; sin validación cruzada"
+    },
+    {
+      "id": "football-560661",
+      "sport": "Fútbol",
+      "name": "Crystal Palace FC vs Hull City AFC",
+      "league": "Premier League",
+      "date": "2026-11-29T14:05:00Z",
+      "status": "TIMED",
+      "home": "Crystal Palace FC",
+      "away": "Hull City AFC",
+      "score": {
+        "home": null,
+        "away": null
+      },
+      "matchday": 12,
+      "source": "football-data.org",
+      "source_url": "https://www.football-data.org/",
+      "updated_at": "2026-11-23T03:30:03.176216+00:00",
+      "quality": "Datos básicos de una fuente; sin validación cruzada"
+    },
+    {
+      "id": "football-565873",
+      "sport": "Fútbol",
+      "name": "SC Freiburg vs RB Leipzig",
+      "league": "Bundesliga",
+      "date": "2026-11-29T14:30:00Z",
+      "status": "TIMED",
+      "home": "SC Freiburg",
+      "away": "RB Leipzig",
+      "score": {
+        "home": null,
+        "away": null
+      },
+      "matchday": 11,
+      "source": "football-data.org",
+      "source_url": "https://www.football-data.org/",
+      "updated_at": "2026-11-23T03:30:03.176216+00:00",
+      "quality": "Datos básicos de una fuente; sin validación cruzada"
+    },
+    {
+      "id": "football-564766",
+      "sport": "Fútbol",
+      "name": "RC Deportivo La Coruña vs FC Barcelona",
+      "league": "Primera Division",
+      "date": "2026-11-29T15:15:00Z",
+      "status": "TIMED",
+      "home": "RC Deportivo La Coruña",
+      "away": "FC Barcelona",
+      "score": {
+        "home": null,
+        "away": null
+      },
+      "matchday": 14,
+      "source": "football-data.org",
+      "source_url": "https://www.football-data.org/",
+      "updated_at": "2026-11-23T03:30:03.176216+00:00",
+      "quality": "Datos básicos de una fuente; sin validación cruzada"
+    },
+    {
+      "id": "football-559618",
+      "sport": "Fútbol",
+      "name": "Toulouse FC vs Stade Rennais FC 1901",
+      "league": "Ligue 1",
+      "date": "2026-11-29T16:15:00Z",
+      "status": "TIMED",
+      "home": "Toulouse FC",
+      "away": "Stade Rennais FC 1901",
+      "score": {
+        "home": null,
+        "away": null
+      },
+      "matchday": 12,
+      "source": "football-data.org",
+      "source_url": "https://www.football-data.org/",
+      "updated_at": "2026-11-23T03:30:03.176216+00:00",
+      "quality": "Datos básicos de una fuente; sin validación cruzada"
+    },
+    {
+      "id": "football-560654",
+      "sport": "Fútbol",
+      "name": "Arsenal FC vs Manchester City FC",
+      "league": "Premier League",
+      "date": "2026-11-29T16:30:00Z",
+      "status": "TIMED",
+      "home": "Arsenal FC",
+      "away": "Manchester City FC",
+      "score": {
+        "home": null,
+        "away": null
+      },
+      "matchday": 12,
+      "source": "football-data.org",
+      "source_url": "https://www.football-data.org/",
+      "updated_at": "2026-11-23T03:30:03.176216+00:00",
+      "quality": "Datos básicos de una fuente; sin validación cruzada"
+    },
+    {
+      "id": "football-565871",
+      "sport": "Fútbol",
+      "name": "TSG 1899 Hoffenheim vs FC Augsburg",
+      "league": "Bundesliga",
+      "date": "2026-11-29T16:30:00Z",
+      "status": "TIMED",
+      "home": "TSG 1899 Hoffenheim",
+      "away": "FC Augsburg",
+      "score": {
+        "home": null,
+        "away": null
+      },
+      "matchday": 11,
+      "source": "football-data.org",
+      "source_url": "https://www.football-data.org/",
+      "updated_at": "2026-11-23T03:30:03.176216+00:00",
+      "quality": "Datos básicos de una fuente; sin validación cruzada"
+    },
+    {
+      "id": "football-558512",
+      "sport": "Fútbol",
+      "name": "AS Roma vs AC Monza",
+      "league": "Serie A",
+      "date": "2026-11-29T17:00:00Z",
+      "status": "TIMED",
+      "home": "AS Roma",
+      "away": "AC Monza",
+      "score": {
+        "home": null,
+        "away": null
+      },
+      "matchday": 13,
+      "source": "football-data.org",
+      "source_url": "https://www.football-data.org/",
+      "updated_at": "2026-11-23T03:30:03.176216+00:00",
+      "quality": "Datos básicos de una fuente; sin validación cruzada"
+    },
+    {
+      "id": "football-564758",
+      "sport": "Fútbol",
+      "name": "RC Celta de Vigo vs Villarreal CF",
+      "league": "Primera Division",
+      "date": "2026-11-29T17:30:00Z",
+      "status": "TIMED",
+      "home": "RC Celta de Vigo",
+      "away": "Villarreal CF",
+      "score": {
+        "home": null,
+        "away": null
+      },
+      "matchday": 14,
+      "source": "football-data.org",
+      "source_url": "https://www.football-data.org/",
+      "updated_at": "2026-11-23T03:30:03.176216+00:00",
+      "quality": "Datos básicos de una fuente; sin validación cruzada"
+    },
+    {
+      "id": "football-565872",
+      "sport": "Fútbol",
+      "name": "Borussia Dortmund vs Bayer 04 Leverkusen",
+      "league": "Bundesliga",
+      "date": "2026-11-29T18:30:00Z",
+      "status": "TIMED",
+      "home": "Borussia Dortmund",
+      "away": "Bayer 04 Leverkusen",
+      "score": {
+        "home": null,
+        "away": null
+      },
+      "matchday": 11,
+      "source": "football-data.org",
+      "source_url": "https://www.football-data.org/",
+      "updated_at": "2026-11-23T03:30:03.176216+00:00",
+      "quality": "Datos básicos de una fuente; sin validación cruzada"
+    },
+    {
+      "id": "football-558511",
+      "sport": "Fútbol",
+      "name": "Como 1907 vs Juventus FC",
+      "league": "Serie A",
+      "date": "2026-11-29T19:45:00Z",
+      "status": "TIMED",
+      "home": "Como 1907",
+      "away": "Juventus FC",
+      "score": {
+        "home": null,
+        "away": null
+      },
+      "matchday": 13,
+      "source": "football-data.org",
+      "source_url": "https://www.football-data.org/",
+      "updated_at": "2026-11-23T03:30:03.176216+00:00",
+      "quality": "Datos básicos de una fuente; sin validación cruzada"
+    },
+    {
+      "id": "football-559615",
+      "sport": "Fútbol",
+      "name": "Olympique Lyonnais vs AS Monaco FC",
+      "league": "Ligue 1",
+      "date": "2026-11-29T19:45:00Z",
+      "status": "TIMED",
+      "home": "Olympique Lyonnais",
+      "away": "AS Monaco FC",
+      "score": {
+        "home": null,
+        "away": null
+      },
+      "matchday": 12,
+      "source": "football-data.org",
+      "source_url": "https://www.football-data.org/",
+      "updated_at": "2026-11-23T03:30:03.176216+00:00",
+      "quality": "Datos básicos de una fuente; sin validación cruzada"
+    },
+    {
+      "id": "football-564764",
+      "sport": "Fútbol",
+      "name": "Real Sociedad de Fútbol vs Sevilla FC",
+      "league": "Primera Division",
+      "date": "2026-11-29T20:00:00Z",
+      "status": "TIMED",
+      "home": "Real Sociedad de Fútbol",
+      "away": "Sevilla FC",
+      "score": {
+        "home": null,
+        "away": null
+      },
+      "matchday": 14,
+      "source": "football-data.org",
+      "source_url": "https://www.football-data.org/",
+      "updated_at": "2026-11-23T03:30:03.176216+00:00",
+      "quality": "Datos básicos de una fuente; sin validación cruzada"
+    },
+    {
+      "id": "football-558516",
+      "sport": "Fútbol",
+      "name": "US Lecce vs Atalanta BC",
+      "league": "Serie A",
+      "date": "2026-11-30T17:30:00Z",
+      "status": "TIMED",
+      "home": "US Lecce",
+      "away": "Atalanta BC",
+      "score": {
+        "home": null,
+        "away": null
+      },
+      "matchday": 13,
+      "source": "football-data.org",
+      "source_url": "https://www.football-data.org/",
+      "updated_at": "2026-11-23T03:30:03.176216+00:00",
+      "quality": "Datos básicos de una fuente; sin validación cruzada"
+    },
+    {
+      "id": "football-558510",
+      "sport": "Fútbol",
+      "name": "Cagliari Calcio vs AC Milan",
+      "league": "Serie A",
+      "date": "2026-11-30T19:45:00Z",
+      "status": "TIMED",
+      "home": "Cagliari Calcio",
+      "away": "AC Milan",
+      "score": {
+        "home": null,
+        "away": null
+      },
+      "matchday": 13,
+      "source": "football-data.org",
+      "source_url": "https://www.football-data.org/",
+      "updated_at": "2026-11-23T03:30:03.176216+00:00",
+      "quality": "Datos básicos de una fuente; sin validación cruzada"
+    },
+    {
+      "id": "football-564763",
+      "sport": "Fútbol",
+      "name": "RCD Espanyol de Barcelona vs Getafe CF",
+      "league": "Primera Division",
+      "date": "2026-11-30T20:00:00Z",
+      "status": "TIMED",
+      "home": "RCD Espanyol de Barcelona",
+      "away": "Getafe CF",
+      "score": {
+        "home": null,
+        "away": null
+      },
+      "matchday": 14,
+      "source": "football-data.org",
+      "source_url": "https://www.football-data.org/",
+      "updated_at": "2026-11-23T03:30:03.176216+00:00",
+      "quality": "Datos básicos de una fuente; sin validación cruzada"
+    },
+    {
+      "id": "football-560668",
+      "sport": "Fútbol",
+      "name": "Coventry City FC vs Ipswich Town FC",
+      "league": "Premier League",
+      "date": "2026-12-01T20:00:00Z",
+      "status": "TIMED",
+      "home": "Coventry City FC",
+      "away": "Ipswich Town FC",
+      "score": {
+        "home": null,
+        "away": null
+      },
+      "matchday": 13,
+      "source": "football-data.org",
+      "source_url": "https://www.football-data.org/",
+      "updated_at": "2026-11-23T03:30:03.176216+00:00",
+      "quality": "Datos básicos de una fuente; sin validación cruzada"
+    },
+    {
+      "id": "football-564855",
+      "sport": "Fútbol",
+      "name": "Real Sociedad de Fútbol vs Real Madrid CF",
+      "league": "Primera Division",
+      "date": "2026-12-02T18:00:00Z",
+      "status": "TIMED",
+      "home": "Real Sociedad de Fútbol",
+      "away": "Real Madrid CF",
+      "score": {
+        "home": null,
+        "away": null
+      },
+      "matchday": 23,
+      "source": "football-data.org",
+      "source_url": "https://www.football-data.org/",
+      "updated_at": "2026-11-23T03:30:03.176216+00:00",
+      "quality": "Datos básicos de una fuente; sin validación cruzada"
+    },
+    {
+      "id": "football-560663",
+      "sport": "Fútbol",
+      "name": "Liverpool FC vs Sunderland AFC",
+      "league": "Premier League",
+      "date": "2026-12-02T19:30:00Z",
+      "status": "TIMED",
+      "home": "Liverpool FC",
+      "away": "Sunderland AFC",
+      "score": {
+        "home": null,
+        "away": null
+      },
+      "matchday": 13,
+      "source": "football-data.org",
+      "source_url": "https://www.football-data.org/",
+      "updated_at": "2026-11-23T03:30:03.176216+00:00",
+      "quality": "Datos básicos de una fuente; sin validación cruzada"
+    },
+    {
+      "id": "football-560664",
+      "sport": "Fútbol",
+      "name": "Hull City AFC vs Nottingham Forest FC",
+      "league": "Premier League",
+      "date": "2026-12-02T19:30:00Z",
+      "status": "TIMED",
+      "home": "Hull City AFC",
+      "away": "Nottingham Forest FC",
+      "score": {
+        "home": null,
+        "away": null
+      },
+      "matchday": 13,
+      "source": "football-data.org",
+      "source_url": "https://www.football-data.org/",
+      "updated_at": "2026-11-23T03:30:03.176216+00:00",
+      "quality": "Datos básicos de una fuente; sin validación cruzada"
+    },
+    {
+      "id": "football-560665",
+      "sport": "Fútbol",
+      "name": "Chelsea FC vs Crystal Palace FC",
+      "league": "Premier League",
+      "date": "2026-12-02T19:30:00Z",
+      "status": "TIMED",
+      "home": "Chelsea FC",
+      "away": "Crystal Palace FC",
+      "score": {
+        "home": null,
+        "away": null
+      },
+      "matchday": 13,
+      "source": "football-data.org",
+      "source_url": "https://www.football-data.org/",
+      "updated_at": "2026-11-23T03:30:03.176216+00:00",
+      "quality": "Datos básicos de una fuente; sin validación cruzada"
+    },
+    {
+      "id": "football-560669",
+      "sport": "Fútbol",
+      "name": "Manchester City FC vs Leeds United FC",
+      "league": "Premier League",
+      "date": "2026-12-02T19:30:00Z",
+      "status": "TIMED",
+      "home": "Manchester City FC",
+      "away": "Leeds United FC",
+      "score": {
+        "home": null,
+        "away": null
+      },
+      "matchday": 13,
+      "source": "football-data.org",
+      "source_url": "https://www.football-data.org/",
+      "updated_at": "2026-11-23T03:30:03.176216+00:00",
+      "quality": "Datos básicos de una fuente; sin validación cruzada"
+    },
+    {
+      "id": "football-560666",
+      "sport": "Fútbol",
+      "name": "Aston Villa FC vs Everton FC",
+      "league": "Premier League",
+      "date": "2026-12-02T20:15:00Z",
+      "status": "TIMED",
+      "home": "Aston Villa FC",
+      "away": "Everton FC",
+      "score": {
+        "home": null,
+        "away": null
+      },
+      "matchday": 13,
+      "source": "football-data.org",
+      "source_url": "https://www.football-data.org/",
+      "updated_at": "2026-11-23T03:30:03.176216+00:00",
+      "quality": "Datos básicos de una fuente; sin validación cruzada"
+    },
+    {
+      "id": "football-560667",
+      "sport": "Fútbol",
+      "name": "Brentford FC vs Arsenal FC",
+      "league": "Premier League",
+      "date": "2026-12-02T20:15:00Z",
+      "status": "TIMED",
+      "home": "Brentford FC",
+      "away": "Arsenal FC",
+      "score": {
+        "home": null,
+        "away": null
+      },
+      "matchday": 13,
+      "source": "football-data.org",
+      "source_url": "https://www.football-data.org/",
+      "updated_at": "2026-11-23T03:30:03.176216+00:00",
+      "quality": "Datos básicos de una fuente; sin validación cruzada"
+    },
+    {
+      "id": "football-560670",
+      "sport": "Fútbol",
+      "name": "Newcastle United FC vs Manchester United FC",
+      "league": "Premier League",
+      "date": "2026-12-02T20:15:00Z",
+      "status": "TIMED",
+      "home": "Newcastle United FC",
+      "away": "Manchester United FC",
+      "score": {
+        "home": null,
+        "away": null
+      },
+      "matchday": 13,
+      "source": "football-data.org",
+      "source_url": "https://www.football-data.org/",
+      "updated_at": "2026-11-23T03:30:03.176216+00:00",
+      "quality": "Datos básicos de una fuente; sin validación cruzada"
+    },
+    {
+      "id": "football-560671",
+      "sport": "Fútbol",
+      "name": "AFC Bournemouth vs Brighton & Hove Albion FC",
+      "league": "Premier League",
+      "date": "2026-12-02T20:15:00Z",
+      "status": "TIMED",
+      "home": "AFC Bournemouth",
+      "away": "Brighton & Hove Albion FC",
+      "score": {
+        "home": null,
+        "away": null
+      },
+      "matchday": 13,
+      "source": "football-data.org",
+      "source_url": "https://www.football-data.org/",
+      "updated_at": "2026-11-23T03:30:03.176216+00:00",
+      "quality": "Datos básicos de una fuente; sin validación cruzada"
+    },
+    {
+      "id": "football-564857",
+      "sport": "Fútbol",
+      "name": "FC Barcelona vs Club Atlético de Madrid",
+      "league": "Primera Division",
+      "date": "2026-12-02T20:30:00Z",
+      "status": "TIMED",
+      "home": "FC Barcelona",
+      "away": "Club Atlético de Madrid",
+      "score": {
+        "home": null,
+        "away": null
+      },
+      "matchday": 23,
+      "source": "football-data.org",
+      "source_url": "https://www.football-data.org/",
+      "updated_at": "2026-11-23T03:30:03.176216+00:00",
+      "quality": "Datos básicos de una fuente; sin validación cruzada"
+    },
+    {
+      "id": "football-560662",
+      "sport": "Fútbol",
+      "name": "Tottenham Hotspur FC vs Fulham FC",
+      "league": "Premier League",
+      "date": "2026-12-03T20:00:00Z",
+      "status": "TIMED",
+      "home": "Tottenham Hotspur FC",
+      "away": "Fulham FC",
+      "score": {
+        "home": null,
+        "away": null
+      },
+      "matchday": 13,
+      "source": "football-data.org",
+      "source_url": "https://www.football-data.org/",
+      "updated_at": "2026-11-23T03:30:03.176216+00:00",
+      "quality": "Datos básicos de una fuente; sin validación cruzada"
+    },
+    {
+      "id": "football-565882",
+      "sport": "Fútbol",
+      "name": "FC Bayern München vs SC Paderborn 07",
+      "league": "Bundesliga",
+      "date": "2026-12-04T19:30:00Z",
+      "status": "TIMED",
+      "home": "FC Bayern München",
+      "away": "SC Paderborn 07",
+      "score": {
+        "home": null,
+        "away": null
+      },
+      "matchday": 12,
+      "source": "football-data.org",
+      "source_url": "https://www.football-data.org/",
+      "updated_at": "2026-11-23T03:30:03.176216+00:00",
+      "quality": "Datos básicos de una fuente; sin validación cruzada"
+    },
+    {
+      "id": "football-558502",
+      "sport": "Fútbol",
+      "name": "Bologna FC 1909 vs AS Roma",
+      "league": "Serie A",
+      "date": "2026-12-04T19:45:00Z",
+      "status": "TIMED",
+      "home": "Bologna FC 1909",
+      "away": "AS Roma",
+      "score": {
+        "home": null,
+        "away": null
+      },
+      "matchday": 14,
+      "source": "football-data.org",
+      "source_url": "https://www.football-data.org/",
+      "updated_at": "2026-11-23T03:30:03.176216+00:00",
+      "quality": "Datos básicos de una fuente; sin validación cruzada"
+    },
+    {
+      "id": "football-559609",
+      "sport": "Fútbol",
+      "name": "Toulouse FC vs Paris Saint-Germain FC",
+      "league": "Ligue 1",
+      "date": "2026-12-04T19:45:00Z",
+      "status": "TIMED",
+      "home": "Toulouse FC",
+      "away": "Paris Saint-Germain FC",
+      "score": {
+        "home": null,
+        "away": null
+      },
+      "matchday": 13,
+      "source": "football-data.org",
+      "source_url": "https://www.football-data.org/",
+      "updated_at": "2026-11-23T03:30:03.176216+00:00",
+      "quality": "Datos básicos de una fuente; sin validación cruzada"
+    },
+    {
+      "id": "football-564770",
+      "sport": "Fútbol",
+      "name": "Deportivo Alavés vs RCD Espanyol de Barcelona",
+      "league": "Primera Division",
+      "date": "2026-12-04T20:00:00Z",
+      "status": "TIMED",
+      "home": "Deportivo Alavés",
+      "away": "RCD Espanyol de Barcelona",
+      "score": {
+        "home": null,
+        "away": null
+      },
+      "matchday": 15,
+      "source": "football-data.org",
+      "source_url": "https://www.football-data.org/",
+      "updated_at": "2026-11-23T03:30:03.176216+00:00",
+      "quality": "Datos básicos de una fuente; sin validación cruzada"
+    },
+    {
+      "id": "football-560676",
+      "sport": "Fútbol",
+      "name": "Chelsea FC vs Liverpool FC",
+      "league": "Premier League",
+      "date": "2026-12-05T12:30:00Z",
+      "status": "TIMED",
+      "home": "Chelsea FC",
+      "away": "Liverpool FC",
+      "score": {
+        "home": null,
+        "away": null
+      },
+      "matchday": 14,
+      "source": "football-data.org",
+      "source_url": "https://www.football-data.org/",
+      "updated_at": "2026-11-23T03:30:03.176216+00:00",
+      "quality": "Datos básicos de una fuente; sin validación cruzada"
+    },
+    {
+      "id": "football-564772",
+      "sport": "Fútbol",
+      "name": "Real Racing Club de Santander vs RC Deportivo La Coruña",
+      "league": "Primera Division",
+      "date": "2026-12-05T13:00:00Z",
+      "status": "TIMED",
+      "home": "Real Racing Club de Santander",
+      "away": "RC Deportivo La Coruña",
+      "score": {
+        "home": null,
+        "away": null
+      },
+      "matchday": 15,
+      "source": "football-data.org",
+      "source_url": "https://www.football-data.org/",
+      "updated_at": "2026-11-23T03:30:03.176216+00:00",
+      "quality": "Datos básicos de una fuente; sin validación cruzada"
+    },
+    {
+      "id": "football-558507",
+      "sport": "Fútbol",
+      "name": "AC Monza vs Como 1907",
+      "league": "Serie A",
+      "date": "2026-12-05T14:00:00Z",
+      "status": "TIMED",
+      "home": "AC Monza",
+      "away": "Como 1907",
+      "score": {
+        "home": null,
+        "away": null
+      },
+      "matchday": 14,
+      "source": "football-data.org",
+      "source_url": "https://www.football-data.org/",
+      "updated_at": "2026-11-23T03:30:03.176216+00:00",
+      "quality": "Datos básicos de una fuente; sin validación cruzada"
+    },
+    {
+      "id": "football-565875",
+      "sport": "Fútbol",
+      "name": "1. FC Union Berlin vs Hamburger SV",
+      "league": "Bundesliga",
+      "date": "2026-12-05T14:30:00Z",
+      "status": "TIMED",
+      "home": "1. FC Union Berlin",
+      "away": "Hamburger SV",
+      "score": {
+        "home": null,
+        "away": null
+      },
+      "matchday": 12,
+      "source": "football-data.org",
+      "source_url": "https://www.football-data.org/",
+      "updated_at": "2026-11-23T03:30:03.176216+00:00",
+      "quality": "Datos básicos de una fuente; sin validación cruzada"
+    },
+    {
+      "id": "football-565877",
+      "sport": "Fútbol",
+      "name": "Bayer 04 Leverkusen vs Borussia Mönchengladbach",
+      "league": "Bundesliga",
+      "date": "2026-12-05T14:30:00Z",
+      "status": "TIMED",
+      "home": "Bayer 04 Leverkusen",
+      "away": "Borussia Mönchengladbach",
+      "score": {
+        "home": null,
+        "away": null
+      },
+      "matchday": 12,
+      "source": "football-data.org",
+      "source_url": "https://www.football-data.org/",
+      "updated_at": "2026-11-23T03:30:03.176216+00:00",
+      "quality": "Datos básicos de una fuente; sin validación cruzada"
+    },
+    {
+      "id": "football-565879",
+      "sport": "Fútbol",
+      "name": "RB Leipzig vs 1. FSV Mainz 05",
+      "league": "Bundesliga",
+      "date": "2026-12-05T14:30:00Z",
+      "status": "TIMED",
+      "home": "RB Leipzig",
+      "away": "1. FSV Mainz 05",
+      "score": {
+        "home": null,
+        "away": null
+      },
+      "matchday": 12,
+      "source": "football-data.org",
+      "source_url": "https://www.football-data.org/",
+      "updated_at": "2026-11-23T03:30:03.176216+00:00",
+      "quality": "Datos básicos de una fuente; sin validación cruzada"
+    },
+    {
+      "id": "football-565881",
+      "sport": "Fútbol",
+      "name": "SC Freiburg vs TSG 1899 Hoffenheim",
+      "league": "Bundesliga",
+      "date": "2026-12-05T14:30:00Z",
+      "status": "TIMED",
+      "home": "SC Freiburg",
+      "away": "TSG 1899 Hoffenheim",
+      "score": {
+        "home": null,
+        "away": null
+      },
+      "matchday": 12,
+      "source": "football-data.org",
+      "source_url": "https://www.football-data.org/",
+      "updated_at": "2026-11-23T03:30:03.176216+00:00",
+      "quality": "Datos básicos de una fuente; sin validación cruzada"
+    },
+    {
+      "id": "football-565883",
+      "sport": "Fútbol",
+      "name": "FC Augsburg vs 1. FC Köln",
+      "league": "Bundesliga",
+      "date": "2026-12-05T14:30:00Z",
+      "status": "TIMED",
+      "home": "FC Augsburg",
+      "away": "1. FC Köln",
+      "score": {
+        "home": null,
+        "away": null
+      },
+      "matchday": 12,
+      "source": "football-data.org",
+      "source_url": "https://www.football-data.org/",
+      "updated_at": "2026-11-23T03:30:03.176216+00:00",
+      "quality": "Datos básicos de una fuente; sin validación cruzada"
+    },
+    {
+      "id": "football-560673",
+      "sport": "Fútbol",
+      "name": "Manchester United FC vs Coventry City FC",
+      "league": "Premier League",
+      "date": "2026-12-05T15:00:00Z",
+      "status": "TIMED",
+      "home": "Manchester United FC",
+      "away": "Coventry City FC",
+      "score": {
+        "home": null,
+        "away": null
+      },
+      "matchday": 14,
+      "source": "football-data.org",
+      "source_url": "https://www.football-data.org/",
+      "updated_at": "2026-11-23T03:30:03.176216+00:00",
+      "quality": "Datos básicos de una fuente; sin validación cruzada"
+    },
+    {
+      "id": "football-560674",
+      "sport": "Fútbol",
+      "name": "Leeds United FC vs Ipswich Town FC",
+      "league": "Premier League",
+      "date": "2026-12-05T15:00:00Z",
+      "status": "TIMED",
+      "home": "Leeds United FC",
+      "away": "Ipswich Town FC",
+      "score": {
+        "home": null,
+        "away": null
+      },
+      "matchday": 14,
+      "source": "football-data.org",
+      "source_url": "https://www.football-data.org/",
+      "updated_at": "2026-11-23T03:30:03.176216+00:00",
+      "quality": "Datos básicos de una fuente; sin validación cruzada"
+    },
+    {
+      "id": "football-560678",
+      "sport": "Fútbol",
+      "name": "AFC Bournemouth vs Hull City AFC",
+      "league": "Premier League",
+      "date": "2026-12-05T15:00:00Z",
+      "status": "TIMED",
+      "home": "AFC Bournemouth",
+      "away": "Hull City AFC",
+      "score": {
+        "home": null,
+        "away": null
+      },
+      "matchday": 14,
+      "source": "football-data.org",
+      "source_url": "https://www.football-data.org/",
+      "updated_at": "2026-11-23T03:30:03.176216+00:00",
+      "quality": "Datos básicos de una fuente; sin validación cruzada"
+    },
+    {
+      "id": "football-560679",
+      "sport": "Fútbol",
+      "name": "Aston Villa FC vs Crystal Palace FC",
+      "league": "Premier League",
+      "date": "2026-12-05T15:00:00Z",
+      "status": "TIMED",
+      "home": "Aston Villa FC",
+      "away": "Crystal Palace FC",
+      "score": {
+        "home": null,
+        "away": null
+      },
+      "matchday": 14,
+      "source": "football-data.org",
+      "source_url": "https://www.football-data.org/",
+      "updated_at": "2026-11-23T03:30:03.176216+00:00",
+      "quality": "Datos básicos de una fuente; sin validación cruzada"
+    },
+    {
+      "id": "football-564777",
+      "sport": "Fútbol",
+      "name": "Rayo Vallecano de Madrid vs Levante UD",
+      "league": "Primera Division",
+      "date": "2026-12-05T15:15:00Z",
+      "status": "TIMED",
+      "home": "Rayo Vallecano de Madrid",
+      "away": "Levante UD",
+      "score": {
+        "home": null,
+        "away": null
+      },
+      "matchday": 15,
+      "source": "football-data.org",
+      "source_url": "https://www.football-data.org/",
+      "updated_at": "2026-11-23T03:30:03.176216+00:00",
+      "quality": "Datos básicos de una fuente; sin validación cruzada"
+    },
+    {
+      "id": "football-559606",
+      "sport": "Fútbol",
+      "name": "Lille OSC vs AJ Auxerre",
+      "league": "Ligue 1",
+      "date": "2026-12-05T16:15:00Z",
+      "status": "TIMED",
+      "home": "Lille OSC",
+      "away": "AJ Auxerre",
+      "score": {
+        "home": null,
+        "away": null
+      },
+      "matchday": 13,
+      "source": "football-data.org",
+      "source_url": "https://www.football-data.org/",
+      "updated_at": "2026-11-23T03:30:03.176216+00:00",
+      "quality": "Datos básicos de una fuente; sin validación cruzada"
+    },
+    {
+      "id": "football-558501",
+      "sport": "Fútbol",
+      "name": "Frosinone Calcio vs FC Internazionale Milano",
+      "league": "Serie A",
+      "date": "2026-12-05T17:00:00Z",
+      "status": "TIMED",
+      "home": "Frosinone Calcio",
+      "away": "FC Internazionale Milano",
+      "score": {
+        "home": null,
+        "away": null
+      },
+      "matchday": 14,
+      "source": "football-data.org",
+      "source_url": "https://www.football-data.org/",
+      "updated_at": "2026-11-23T03:30:03.176216+00:00",
+      "quality": "Datos básicos de una fuente; sin validación cruzada"
+    },
+    {
+      "id": "football-560680",
+      "sport": "Fútbol",
+      "name": "Nottingham Forest FC vs Brighton & Hove Albion FC",
+      "league": "Premier League",
+      "date": "2026-12-05T17:30:00Z",
+      "status": "TIMED",
+      "home": "Nottingham Forest FC",
+      "away": "Brighton & Hove Albion FC",
+      "score": {
+        "home": null,
+        "away": null
+      },
+      "matchday": 14,
+      "source": "football-data.org",
+      "source_url": "https://www.football-data.org/",
+      "updated_at": "2026-11-23T03:30:03.176216+00:00",
+      "quality": "Datos básicos de una fuente; sin validación cruzada"
+    },
+    {
+      "id": "football-564776",
+      "sport": "Fútbol",
+      "name": "Villarreal CF vs Real Sociedad de Fútbol",
+      "league": "Primera Division",
+      "date": "2026-12-05T17:30:00Z",
+      "status": "TIMED",
+      "home": "Villarreal CF",
+      "away": "Real Sociedad de Fútbol",
+      "score": {
+        "home": null,
+        "away": null
+      },
+      "matchday": 15,
+      "source": "football-data.org",
+      "source_url": "https://www.football-data.org/",
+      "updated_at": "2026-11-23T03:30:03.176216+00:00",
+      "quality": "Datos básicos de una fuente; sin validación cruzada"
+    },
+    {
+      "id": "football-565878",
+      "sport": "Fútbol",
+      "name": "Eintracht Frankfurt vs SV Werder Bremen",
+      "league": "Bundesliga",
+      "date": "2026-12-05T17:30:00Z",
+      "status": "TIMED",
+      "home": "Eintracht Frankfurt",
+      "away": "SV Werder Bremen",
+      "score": {
+        "home": null,
+        "away": null
+      },
+      "matchday": 12,
+      "source": "football-data.org",
+      "source_url": "https://www.football-data.org/",
+      "updated_at": "2026-11-23T03:30:03.176216+00:00",
+      "quality": "Datos básicos de una fuente; sin validación cruzada"
+    },
+    {
+      "id": "football-558508",
+      "sport": "Fútbol",
+      "name": "SSC Napoli vs US Lecce",
+      "league": "Serie A",
+      "date": "2026-12-05T19:45:00Z",
+      "status": "TIMED",
+      "home": "SSC Napoli",
+      "away": "US Lecce",
+      "score": {
+        "home": null,
+        "away": null
+      },
+      "matchday": 14,
+      "source": "football-data.org",
+      "source_url": "https://www.football-data.org/",
+      "updated_at": "2026-11-23T03:30:03.176216+00:00",
+      "quality": "Datos básicos de una fuente; sin validación cruzada"
+    },
+    {
+      "id": "football-559604",
+      "sport": "Fútbol",
+      "name": "AS Monaco FC vs Angers SCO",
+      "league": "Ligue 1",
+      "date": "2026-12-05T19:45:00Z",
+      "status": "TIMED",
+      "home": "AS Monaco FC",
+      "away": "Angers SCO",
+      "score": {
+        "home": null,
+        "away": null
+      },
+      "matchday": 13,
+      "source": "football-data.org",
+      "source_url": "https://www.football-data.org/",
+      "updated_at": "2026-11-23T03:30:03.176216+00:00",
+      "quality": "Datos básicos de una fuente; sin validación cruzada"
+    },
+    {
+      "id": "football-559605",
+      "sport": "Fútbol",
+      "name": "Racing Club de Lens vs Le Havre AC",
+      "league": "Ligue 1",
+      "date": "2026-12-05T19:45:00Z",
+      "status": "TIMED",
+      "home": "Racing Club de Lens",
+      "away": "Le Havre AC",
+      "score": {
+        "home": null,
+        "away": null
+      },
+      "matchday": 13,
+      "source": "football-data.org",
+      "source_url": "https://www.football-data.org/",
+      "updated_at": "2026-11-23T03:30:03.176216+00:00",
+      "quality": "Datos básicos de una fuente; sin validación cruzada"
+    },
+    {
+      "id": "football-559610",
+      "sport": "Fútbol",
+      "name": "RC Strasbourg Alsace vs FC Lorient",
+      "league": "Ligue 1",
+      "date": "2026-12-05T19:45:00Z",
+      "status": "TIMED",
+      "home": "RC Strasbourg Alsace",
+      "away": "FC Lorient",
+      "score": {
+        "home": null,
+        "away": null
+      },
+      "matchday": 13,
+      "source": "football-data.org",
+      "source_url": "https://www.football-data.org/",
+      "updated_at": "2026-11-23T03:30:03.176216+00:00",
+      "quality": "Datos básicos de una fuente; sin validación cruzada"
+    },
+    {
+      "id": "football-559611",
+      "sport": "Fútbol",
+      "name": "Paris FC vs Le Mans FC",
+      "league": "Ligue 1",
+      "date": "2026-12-05T19:45:00Z",
+      "status": "TIMED",
+      "home": "Paris FC",
+      "away": "Le Mans FC",
+      "score": {
+        "home": null,
+        "away": null
+      },
+      "matchday": 13,
+      "source": "football-data.org",
+      "source_url": "https://www.football-data.org/",
+      "updated_at": "2026-11-23T03:30:03.176216+00:00",
+      "quality": "Datos básicos de una fuente; sin validación cruzada"
+    },
+    {
+      "id": "football-560677",
+      "sport": "Fútbol",
+      "name": "Brentford FC vs Manchester City FC",
+      "league": "Premier League",
+      "date": "2026-12-05T20:00:00Z",
+      "status": "TIMED",
+      "home": "Brentford FC",
+      "away": "Manchester City FC",
+      "score": {
+        "home": null,
+        "away": null
+      },
+      "matchday": 14,
+      "source": "football-data.org",
+      "source_url": "https://www.football-data.org/",
+      "updated_at": "2026-11-23T03:30:03.176216+00:00",
+      "quality": "Datos básicos de una fuente; sin validación cruzada"
+    },
+    {
+      "id": "football-564773",
+      "sport": "Fútbol",
+      "name": "FC Barcelona vs RC Celta de Vigo",
+      "league": "Primera Division",
+      "date": "2026-12-05T20:00:00Z",
+      "status": "TIMED",
+      "home": "FC Barcelona",
+      "away": "RC Celta de Vigo",
+      "score": {
+        "home": null,
+        "away": null
+      },
+      "matchday": 15,
+      "source": "football-data.org",
+      "source_url": "https://www.football-data.org/",
+      "updated_at": "2026-11-23T03:30:03.176216+00:00",
+      "quality": "Datos básicos de una fuente; sin validación cruzada"
+    },
+    {
+      "id": "football-558499",
+      "sport": "Fútbol",
+      "name": "Genoa CFC vs Torino FC",
+      "league": "Serie A",
+      "date": "2026-12-06T11:30:00Z",
+      "status": "TIMED",
+      "home": "Genoa CFC",
+      "away": "Torino FC",
+      "score": {
+        "home": null,
+        "away": null
+      },
+      "matchday": 14,
+      "source": "football-data.org",
+      "source_url": "https://www.football-data.org/",
+      "updated_at": "2026-11-23T03:30:03.176216+00:00",
+      "quality": "Datos básicos de una fuente; sin validación cruzada"
+    },
+    {
+      "id": "football-564768",
+      "sport": "Fútbol",
+      "name": "CA Osasuna vs Elche CF",
+      "league": "Primera Division",
+      "date": "2026-12-06T13:00:00Z",
+      "status": "TIMED",
+      "home": "CA Osasuna",
+      "away": "Elche CF",
+      "score": {
+        "home": null,
+        "away": null
+      },
+      "matchday": 15,
+      "source": "football-data.org",
+      "source_url": "https://www.football-data.org/",
+      "updated_at": "2026-11-23T03:30:03.176216+00:00",
+      "quality": "Datos básicos de una fuente; sin validación cruzada"
+    },
+    {
+      "id": "football-560675",
+      "sport": "Fútbol",
+      "name": "Newcastle United FC vs Sunderland AFC",
+      "league": "Premier League",
+      "date": "2026-12-06T14:00:00Z",
+      "status": "TIMED",
+      "home": "Newcastle United FC",
+      "away": "Sunderland AFC",
+      "score": {
+        "home": null,
+        "away": null
+      },
+      "matchday": 14,
+      "source": "football-data.org",
+      "source_url": "https://www.football-data.org/",
+      "updated_at": "2026-11-23T03:30:03.176216+00:00",
+      "quality": "Datos básicos de una fuente; sin validación cruzada"
+    },
+    {
+      "id": "football-560681",
+      "sport": "Fútbol",
+      "name": "Everton FC vs Fulham FC",
+      "league": "Premier League",
+      "date": "2026-12-06T14:00:00Z",
+      "status": "TIMED",
+      "home": "Everton FC",
+      "away": "Fulham FC",
+      "score": {
+        "home": null,
+        "away": null
+      },
+      "matchday": 14,
+      "source": "football-data.org",
+      "source_url": "https://www.football-data.org/",
+      "updated_at": "2026-11-23T03:30:03.176216+00:00",
+      "quality": "Datos básicos de una fuente; sin validación cruzada"
+    },
+    {
+      "id": "football-558504",
+      "sport": "Fútbol",
+      "name": "SS Lazio vs Atalanta BC",
+      "league": "Serie A",
+      "date": "2026-12-06T14:00:00Z",
+      "status": "TIMED",
+      "home": "SS Lazio",
+      "away": "Atalanta BC",
+      "score": {
+        "home": null,
+        "away": null
+      },
+      "matchday": 14,
+      "source": "football-data.org",
+      "source_url": "https://www.football-data.org/",
+      "updated_at": "2026-11-23T03:30:03.176216+00:00",
+      "quality": "Datos básicos de una fuente; sin validación cruzada"
+    },
+    {
+      "id": "football-559603",
+      "sport": "Fútbol",
+      "name": "ES Troyes AC vs Olympique Lyonnais",
+      "league": "Ligue 1",
+      "date": "2026-12-06T14:00:00Z",
+      "status": "TIMED",
+      "home": "ES Troyes AC",
+      "away": "Olympique Lyonnais",
+      "score": {
+        "home": null,
+        "away": null
+      },
+      "matchday": 13,
+      "source": "football-data.org",
+      "source_url": "https://www.football-data.org/",
+      "updated_at": "2026-11-23T03:30:03.176216+00:00",
+      "quality": "Datos básicos de una fuente; sin validación cruzada"
+    },
+    {
+      "id": "football-565876",
+      "sport": "Fútbol",
+      "name": "FC Schalke 04 vs Borussia Dortmund",
+      "league": "Bundesliga",
+      "date": "2026-12-06T14:30:00Z",
+      "status": "TIMED",
+      "home": "FC Schalke 04",
+      "away": "Borussia Dortmund",
+      "score": {
+        "home": null,
+        "away": null
+      },
+      "matchday": 12,
+      "source": "football-data.org",
+      "source_url": "https://www.football-data.org/",
+      "updated_at": "2026-11-23T03:30:03.176216+00:00",
+      "quality": "Datos básicos de una fuente; sin validación cruzada"
+    },
+    {
+      "id": "football-564775",
+      "sport": "Fútbol",
+      "name": "Athletic Club vs Real Madrid CF",
+      "league": "Primera Division",
+      "date": "2026-12-06T15:15:00Z",
+      "status": "TIMED",
+      "home": "Athletic Club",
+      "away": "Real Madrid CF",
+      "score": {
+        "home": null,
+        "away": null
+      },
+      "matchday": 15,
+      "source": "football-data.org",
+      "source_url": "https://www.football-data.org/",
+      "updated_at": "2026-11-23T03:30:03.176216+00:00",
+      "quality": "Datos básicos de una fuente; sin validación cruzada"
+    },
+    {
+      "id": "football-559608",
+      "sport": "Fútbol",
+      "name": "Stade Rennais FC 1901 vs Stade Brestois 29",
+      "league": "Ligue 1",
+      "date": "2026-12-06T16:15:00Z",
+      "status": "TIMED",
+      "home": "Stade Rennais FC 1901",
+      "away": "Stade Brestois 29",
+      "score": {
+        "home": null,
+        "away": null
+      },
+      "matchday": 13,
+      "source": "football-data.org",
+      "source_url": "https://www.football-data.org/",
+      "updated_at": "2026-11-23T03:30:03.176216+00:00",
+      "quality": "Datos básicos de una fuente; sin validación cruzada"
+    },
+    {
+      "id": "football-560672",
+      "sport": "Fútbol",
+      "name": "Tottenham Hotspur FC vs Arsenal FC",
+      "league": "Premier League",
+      "date": "2026-12-06T16:30:00Z",
+      "status": "TIMED",
+      "home": "Tottenham Hotspur FC",
+      "away": "Arsenal FC",
+      "score": {
+        "home": null,
+        "away": null
+      },
+      "matchday": 14,
+      "source": "football-data.org",
+      "source_url": "https://www.football-data.org/",
+      "updated_at": "2026-11-23T03:30:03.176216+00:00",
+      "quality": "Datos básicos de una fuente; sin validación cruzada"
+    },
+    {
+      "id": "football-565880",
+      "sport": "Fútbol",
+      "name": "SV 07 Elversberg vs VfB Stuttgart",
+      "league": "Bundesliga",
+      "date": "2026-12-06T16:30:00Z",
+      "status": "TIMED",
+      "home": "SV 07 Elversberg",
+      "away": "VfB Stuttgart",
+      "score": {
+        "home": null,
+        "away": null
+      },
+      "matchday": 12,
+      "source": "football-data.org",
+      "source_url": "https://www.football-data.org/",
+      "updated_at": "2026-11-23T03:30:03.176216+00:00",
+      "quality": "Datos básicos de una fuente; sin validación cruzada"
+    },
+    {
+      "id": "football-558500",
+      "sport": "Fútbol",
+      "name": "Juventus FC vs Udinese Calcio",
+      "league": "Serie A",
+      "date": "2026-12-06T17:00:00Z",
+      "status": "TIMED",
+      "home": "Juventus FC",
+      "away": "Udinese Calcio",
+      "score": {
+        "home": null,
+        "away": null
+      },
+      "matchday": 14,
+      "source": "football-data.org",
+      "source_url": "https://www.football-data.org/",
+      "updated_at": "2026-11-23T03:30:03.176216+00:00",
+      "quality": "Datos básicos de una fuente; sin validación cruzada"
+    },
+    {
+      "id": "football-564774",
+      "sport": "Fútbol",
+      "name": "Getafe CF vs Valencia CF",
+      "league": "Primera Division",
+      "date": "2026-12-06T17:30:00Z",
+      "status": "TIMED",
+      "home": "Getafe CF",
+      "away": "Valencia CF",
+      "score": {
+        "home": null,
+        "away": null
+      },
+      "matchday": 15,
+      "source": "football-data.org",
+      "source_url": "https://www.football-data.org/",
+      "updated_at": "2026-11-23T03:30:03.176216+00:00",
+      "quality": "Datos básicos de una fuente; sin validación cruzada"
+    },
+    {
+      "id": "football-558505",
+      "sport": "Fútbol",
+      "name": "AC Milan vs Parma Calcio 1913",
+      "league": "Serie A",
+      "date": "2026-12-06T19:45:00Z",
+      "status": "TIMED",
+      "home": "AC Milan",
+      "away": "Parma Calcio 1913",
+      "score": {
+        "home": null,
+        "away": null
+      },
+      "matchday": 14,
+      "source": "football-data.org",
+      "source_url": "https://www.football-data.org/",
+      "updated_at": "2026-11-23T03:30:03.176216+00:00",
+      "quality": "Datos básicos de una fuente; sin validación cruzada"
+    },
+    {
+      "id": "football-559607",
+      "sport": "Fútbol",
+      "name": "Olympique de Marseille vs OGC Nice",
+      "league": "Ligue 1",
+      "date": "2026-12-06T19:45:00Z",
+      "status": "TIMED",
+      "home": "Olympique de Marseille",
+      "away": "OGC Nice",
+      "score": {
+        "home": null,
+        "away": null
+      },
+      "matchday": 13,
+      "source": "football-data.org",
+      "source_url": "https://www.football-data.org/",
+      "updated_at": "2026-11-23T03:30:03.176216+00:00",
+      "quality": "Datos básicos de una fuente; sin validación cruzada"
+    },
+    {
+      "id": "football-564771",
+      "sport": "Fútbol",
+      "name": "Club Atlético de Madrid vs Real Betis Balompié",
+      "league": "Primera Division",
+      "date": "2026-12-06T20:00:00Z",
+      "status": "TIMED",
+      "home": "Club Atlético de Madrid",
+      "away": "Real Betis Balompié",
+      "score": {
+        "home": null,
+        "away": null
+      },
+      "matchday": 15,
+      "source": "football-data.org",
+      "source_url": "https://www.football-data.org/",
+      "updated_at": "2026-11-23T03:30:03.176216+00:00",
+      "quality": "Datos básicos de una fuente; sin validación cruzada"
+    },
+    {
+      "id": "football-558506",
+      "sport": "Fútbol",
+      "name": "Venezia FC vs US Sassuolo Calcio",
+      "league": "Serie A",
+      "date": "2026-12-07T17:30:00Z",
+      "status": "TIMED",
+      "home": "Venezia FC",
+      "away": "US Sassuolo Calcio",
+      "score": {
+        "home": null,
+        "away": null
+      },
+      "matchday": 14,
+      "source": "football-data.org",
+      "source_url": "https://www.football-data.org/",
+      "updated_at": "2026-11-23T03:30:03.176216+00:00",
+      "quality": "Datos básicos de una fuente; sin validación cruzada"
+    },
+    {
+      "id": "football-558503",
+      "sport": "Fútbol",
+      "name": "ACF Fiorentina vs Cagliari Calcio",
+      "league": "Serie A",
+      "date": "2026-12-07T19:45:00Z",
+      "status": "TIMED",
+      "home": "ACF Fiorentina",
+      "away": "Cagliari Calcio",
+      "score": {
+        "home": null,
+        "away": null
+      },
+      "matchday": 14,
+      "source": "football-data.org",
+      "source_url": "https://www.football-data.org/",
+      "updated_at": "2026-11-23T03:30:03.176216+00:00",
+      "quality": "Datos básicos de una fuente; sin validación cruzada"
+    },
+    {
+      "id": "football-564769",
+      "sport": "Fútbol",
+      "name": "Sevilla FC vs Málaga CF",
+      "league": "Primera Division",
+      "date": "2026-12-07T20:00:00Z",
+      "status": "TIMED",
+      "home": "Sevilla FC",
+      "away": "Málaga CF",
+      "score": {
+        "home": null,
+        "away": null
+      },
+      "matchday": 15,
+      "source": "football-data.org",
+      "source_url": "https://www.football-data.org/",
+      "updated_at": "2026-11-23T03:30:03.176216+00:00",
+      "quality": "Datos básicos de una fuente; sin validación cruzada"
+    }
+  ]
+}
