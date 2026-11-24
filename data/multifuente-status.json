@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-24T04:18:14.795446Z",
+  "generated_at": "2026-11-24T05:34:54.019475Z",
   "source": "TheSportsDB (API pública v1)",
   "source_url": "https://www.thesportsdb.com/docs/api",
   "provider_key_type": "public",
@@ -7,15 +7,14 @@
   "sports": {
     "football": {
       "status": "parcial",
-      "stored": 49,
-      "new": 49,
-      "received": 49,
-      "accepted": 49,
+      "stored": 51,
+      "new": 2,
+      "received": 51,
+      "accepted": 51,
       "errors": [
         "brasil: HTTP 429",
-        "brasil: HTTP 429",
-        "Estadísticas tsdb-2398544: HTTPError",
-        "Estadísticas tsdb-2398548: HTTPError"
+        "Estadísticas tsdb-2398550: HTTPError",
+        "Estadísticas tsdb-2398544: HTTPError"
       ],
       "requests": [
         {
@@ -146,8 +145,9 @@
             "d": "2026-11-24",
             "l": "4351"
           },
-          "result": "error",
-          "error": "HTTP 429"
+          "result": "ok",
+          "received": 2,
+          "accepted": 2
         },
         {
           "league": "Brasileirão Série A",
@@ -161,7 +161,7 @@
           "error": "HTTP 429"
         }
       ],
-      "last_attempt": "2026-11-24T04:18:14.795446Z",
+      "last_attempt": "2026-11-24T05:34:54.019475Z",
       "limitations": "API pública devuelve máximo 3 registros por día y 15 por temporada en cada consulta; cobertura incompleta"
     },
     "nba": {
@@ -222,7 +222,7 @@
           "error": "HTTP 429"
         }
       ],
-      "last_attempt": "2026-11-24T04:18:14.795446Z",
+      "last_attempt": "2026-11-24T05:34:54.019475Z",
       "limitations": "API pública devuelve máximo 3 registros por día y 15 por temporada en cada consulta; cobertura incompleta"
     },
     "tennis": {
@@ -283,7 +283,7 @@
           "error": "HTTP 429"
         }
       ],
-      "last_attempt": "2026-11-24T04:18:14.795446Z",
+      "last_attempt": "2026-11-24T05:34:54.019475Z",
       "limitations": "API pública devuelve máximo 3 registros por día y 15 por temporada en cada consulta; cobertura incompleta"
     },
     "mma": {
@@ -344,15 +344,14 @@
           "error": "HTTP 429"
         }
       ],
-      "last_attempt": "2026-11-24T04:18:14.795446Z",
+      "last_attempt": "2026-11-24T05:34:54.019475Z",
       "limitations": "API pública devuelve máximo 3 registros por día y 15 por temporada en cada consulta; cobertura incompleta"
     }
   },
   "errors": [
     "brasil: HTTP 429",
-    "brasil: HTTP 429",
+    "Estadísticas tsdb-2398550: HTTPError",
     "Estadísticas tsdb-2398544: HTTPError",
-    "Estadísticas tsdb-2398548: HTTPError",
     "nba: HTTP 429",
     "nba: HTTP 429",
     "nba: HTTP 429",
