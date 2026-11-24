@@ -1,0 +1,339 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<meta name="theme-color" content="#0d0e12"/>
+<meta name="description" content="APOSTARDO: laboratorios de estadística deportiva descriptiva con fuentes verificables y muestras explícitas."/>
+<title>APOSTARDO 5.5 | Laboratorios deportivos</title>
+<style>
+:root{color-scheme:dark;--bg:#0d0e12;--panel:#17191f;--panel2:#20232b;--line:#333844;--red:#e4444e;--red2:#a93b45;--ink:#f5f5f8;--muted:#aab2bf;--green:#80dbb0;--amber:#f3c783;--cool:#78a9eb}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:radial-gradient(ellipse 680px 390px at 88% -4%,#361c24 0,transparent 70%),var(--bg);color:var(--ink);font:15px/1.5 system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif}button,select,input{font:inherit}button{cursor:pointer}button:focus-visible,a:focus-visible,select:focus-visible,input:focus-visible,summary:focus-visible{outline:2px solid #ff999f;outline-offset:3px}button:disabled{opacity:.55;cursor:not-allowed}a{color:#ffaaa9;text-decoration:none}a:hover{text-decoration:underline}p{margin:8px 0}.wrap{max-width:1260px;margin:0 auto;padding:0 18px}
+.top{position:sticky;top:0;background:#111318ed;backdrop-filter:blur(16px);z-index:10;border-bottom:1px solid var(--line)}.top-inner{min-height:66px;display:flex;justify-content:space-between;align-items:center;gap:14px}.brand{display:flex;align-items:center;gap:10px;font-size:19px;color:white;font-weight:950;letter-spacing:.08em}.brandmark{padding:8px;background:var(--red);border-radius:10px;line-height:1}.navlinks{display:flex;align-items:center;flex-wrap:wrap;gap:12px;font-size:13px}.navlinks a{color:#d4d8e1}.logoeyebrow{font-size:9px;font-weight:800;letter-spacing:.2em;color:var(--muted)}
+.hero{padding:34px 0 12px}.eyebrow{font-size:11px;letter-spacing:.16em;color:#f48289;font-weight:850}.hero h1{margin:9px 0;font-size:clamp(32px,5vw,58px);letter-spacing:-.045em;line-height:1.04;max-width:800px}.hero h1 em{font-style:normal;color:var(--red)}.hero p{color:var(--muted);max-width:880px;font-size:15px}.sportnav{display:flex;overflow-x:auto;gap:8px;padding:16px 0 18px;scrollbar-width:thin}.sportnav button{background:var(--panel);border:1px solid var(--line);color:var(--ink);padding:12px 18px;white-space:nowrap;border-radius:12px;font-weight:800}.sportnav button[aria-selected=true]{background:var(--red);border-color:var(--red);color:white}.pill{display:inline-flex;align-items:center;border:1px solid #78404a;color:#ffabb0;background:#3a1e25;border-radius:99px;padding:6px 9px;font-size:11px;font-weight:800}.statusline{margin:0 0 20px;border:1px solid var(--line);background:#14171e;border-radius:12px;padding:12px 15px;display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap}.tiny{font-size:12px;color:var(--muted)}.muted{color:var(--muted)}.ok{color:var(--green)}.warn{color:var(--amber)}.bad{color:#ffa6a8}
+.layout{display:grid;grid-template-columns:minmax(0,1fr) minmax(260px,300px);gap:18px;align-items:start}.panel{border:1px solid var(--line);border-radius:16px;background:var(--panel);padding:22px;min-width:0}.panel+.panel{margin-top:16px}h2{font-size:23px;margin:0 0 14px;letter-spacing:-.025em}h3{font-size:17px;margin:0 0 10px}.panelhead{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap}.fields{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:13px}.field label{font-size:12px;color:var(--muted);font-weight:700;display:block;margin-bottom:6px}.field select,.field input{width:100%;border:1px solid #424855;background:#101217;color:var(--ink);padding:12px 11px;border-radius:9px;min-height:46px;min-width:0}.field select:disabled{opacity:.45}.controlsfooter{display:flex;flex-wrap:wrap;align-items:center;gap:10px;margin-top:17px}.primary,.secondary{border:1px solid var(--red);border-radius:10px;min-height:43px;padding:11px 15px;color:#fff;font-weight:800;background:var(--red)}.secondary{background:transparent;border-color:#59606d;color:#d5dbe6}.primary:hover{background:#bd323e}.secondary:hover{background:#242932}.button-sm{min-height:auto;padding:7px 10px;font-size:12px}
+.summarygrid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px;margin-bottom:16px}.tile{padding:15px;border:1px solid var(--line);border-radius:12px;background:var(--panel2)}.tile b{display:block;font-size:25px;letter-spacing:-.045em;line-height:1.15;font-variant-numeric:tabular-nums;margin-top:5px}.tile span{color:var(--muted);font-size:11px}.profilegrid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:11px}.profile{border-radius:12px;padding:14px;background:#101217;border:1px solid var(--line)}.profile:last-child{border-color:#456085}.profile h3{margin:4px 0;font-size:18px;overflow-wrap:anywhere}.profile small{color:var(--muted);font-size:12px}.profile strong{font-size:21px;color:var(--ink)}.profile .minor{color:var(--muted);font-size:12px;margin-top:4px}.legend{display:flex;gap:13px;flex-wrap:wrap;font-size:12px;color:var(--muted)}.legend i{display:inline-block;width:8px;height:8px;margin-right:4px;border-radius:10px;background:var(--red)}.legend .b i{background:var(--cool)}
+.viewtabs{display:flex;gap:7px;overflow:auto;padding:0 0 14px;margin-top:10px}.viewtabs button{border:1px solid var(--line);background:#1b1e25;color:var(--ink);padding:10px 14px;border-radius:10px;font-weight:700;white-space:nowrap;font-size:13px}.viewtabs button[aria-selected=true]{background:#3a2228;border-color:#a84752;color:#ffc1c4}.tablewrap{overflow-x:auto;border:1px solid var(--line);border-radius:11px}table{border-collapse:collapse;width:100%;font-size:13px;min-width:620px}th,td{padding:12px 11px;text-align:left;vertical-align:middle;border-bottom:1px solid #2c323b}th{background:#20242d;color:#c2c9d4;font-size:12px}tbody tr:last-child td{border-bottom:0}td.label{min-width:150px;font-weight:700}td.num{text-align:right;font-variant-numeric:tabular-nums}td small{color:var(--muted);display:block;font-size:11px} .sourcechip{font-size:11px;color:#b8c1ce}.meta{color:var(--muted);font-size:12px}.notice{padding:13px 14px;background:#292219;border:1px solid #756140;border-radius:10px;color:#efd7a4;margin:12px 0;font-size:13px}.empty{padding:30px 14px;text-align:center;border:1px dashed #525663;border-radius:13px;color:var(--muted)}.empty h3{color:#fff;margin-top:0}.stack{display:grid;gap:11px}.match{background:#111319;border:1px solid var(--line);border-radius:11px;padding:14px}.matchhead{display:flex;justify-content:space-between;flex-wrap:wrap;gap:10px;color:var(--muted);font-size:11px}.match strong{font-size:15px;display:block;margin:6px 0}.match .line{display:flex;justify-content:space-between;align-items:center;gap:12px}.match details{margin-top:8px;color:var(--muted);font-size:12px}.match summary{cursor:pointer;color:#ffb0b5}.match details p{margin:5px 0}.hl{color:#f7a1ab}.rowsplit{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}.trendchart{display:grid;gap:13px}.trenditem{display:grid;grid-template-columns:93px minmax(0,1fr) 47px;gap:9px;align-items:center}.trenditem span{color:var(--muted);font-size:12px;overflow:hidden;white-space:nowrap;text-overflow:ellipsis}.track{height:16px;border-radius:5px;background:#2c3039;overflow:hidden}.fill{height:100%;border-radius:5px;background:var(--red);min-width:2px}.fill.b{background:var(--cool)}.sourcelist{display:grid;gap:9px}.sourcerow{padding:12px;border-radius:9px;border:1px solid var(--line);background:#111318;display:grid;gap:4px}.sourcerow strong{font-size:13px}.sourcerow small{font-size:11px;color:var(--muted)}.rightcol{position:sticky;top:85px}.rightcol .panel{padding:18px}.divider{border-top:1px solid var(--line);margin:15px 0}.faq p{color:var(--muted);font-size:13px}.foot{border-top:1px solid var(--line);margin-top:36px;padding:25px 0;color:var(--muted);font-size:12px}
+@media(max-width:920px){.layout{grid-template-columns:1fr}.rightcol{position:static}.rightcol{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}.rightcol .panel+.panel{margin:0}}
+@media(max-width:570px){.top-inner{min-height:61px}.brand{font-size:15px}.navlinks{gap:8px;font-size:11px}.navlinks a:first-child{display:none}.hero{padding-top:26px}.hero h1{font-size:36px}.panel{padding:15px}.fields{grid-template-columns:1fr}.summarygrid{grid-template-columns:repeat(3,minmax(0,1fr));gap:6px}.tile{padding:10px}.tile b{font-size:20px}.tile span{font-size:10px}.profilegrid,.rowsplit,.rightcol{grid-template-columns:1fr}.sportnav button{padding:10px 13px}.viewtabs button{padding:9px 12px}.controlsfooter button{flex:1}}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{scroll-behavior:auto!important;animation:none!important;transition:none!important}}
+
+</style>
+</head>
+<body>
+<header class="top"><div class="wrap top-inner"><a class="brand" href="./index.html"><span class="brandmark">A</span><span>APOSTARDO <span class="logoeyebrow" style="display:block">SPORTS INTELLIGENCE · 5.5</span></span></a><nav class="navlinks" aria-label="Navegación principal"><a href="./index.html">Cartelera</a><a href="./fuentes.html">Fuentes</a><span class="pill">LABORATORIOS</span></nav></div></header>
+<main class="wrap">
+<section class="hero"><div class="eyebrow">ESTADÍSTICA · HISTORIAL · EVIDENCIA</div><h1>Laboratorios <em>deportivos.</em></h1><p>Compara el historial de equipos, tenistas y peleadores usando solo registros publicados. Muestras, medianas, rangos y fuentes visibles. Sin pronósticos ni cifras estimadas cuando faltan datos.</p></section>
+<div class="sportnav" id="sportNav" role="tablist" aria-label="Seleccionar laboratorio"></div>
+<div class="statusline" role="status" aria-live="polite"><span id="loadText">Preparando fuentes…</span><div style="display:flex;align-items:center;gap:9px"><span class="tiny" id="loadMeta">Sin consultar</span><button class="secondary button-sm" id="reloadBtn" type="button">Actualizar archivos</button></div></div>
+<div class="layout">
+<div class="maincol">
+<section class="panel" aria-labelledby="labTitle"><div class="panelhead"><h2 id="labTitle">Laboratorio de fútbol</h2><span class="pill" id="coveragePill">FUENTES</span></div><p class="tiny" id="labSub">Configuración de muestra y participantes</p>
+<div class="fields">
+<div class="field"><label for="league">Competición</label><select id="league"><option value="">Todas</option></select></div>
+<div class="field"><label for="sampleN">Últimos encuentros</label><select id="sampleN"><option value="5">5</option><option value="10" selected>10</option><option value="20">20</option></select></div>
+<div class="field"><label for="participantA" id="labelA">Equipo A</label><select id="participantA"><option value="">Selecciona participante</option></select></div>
+<div class="field"><label for="participantB" id="labelB">Equipo B</label><select id="participantB"><option value="">Selecciona participante</option></select></div>
+<div class="field" id="surfaceWrap" hidden><label for="surface">Superficie</label><select id="surface"><option value="all">Todas las superficies</option><option value="hard">Pista dura</option><option value="clay">Arcilla</option><option value="grass">Césped</option><option value="carpet">Moqueta</option><option value="unknown">No especificada</option></select></div>
+<div class="field"><label for="cutoff">Datos hasta la fecha (opcional)</label><input id="cutoff" type="date"/></div>
+</div><div class="controlsfooter"><button id="analyzeBtn" type="button" class="primary">Analizar historial</button><button id="resetBtn" type="button" class="secondary">Reiniciar filtros</button><button id="csvBtn" type="button" class="secondary">Exportar resumen CSV</button></div>
+</section>
+<section class="panel" aria-labelledby="resultTitle"><div class="panelhead"><h2 id="resultTitle">Análisis descriptivo</h2><span class="tiny" id="analysisMeta">Sin selección</span></div><div id="analysis" aria-live="polite"><div class="empty">Selecciona participantes para iniciar.</div></div></section>
+</div>
+<aside class="rightcol" aria-label="Contexto y procedencia">
+<section class="panel"><h3>Estado de los datos</h3><div class="sourcelist" id="sourceList"><p class="muted">Cargando fuentes…</p></div><div class="divider"></div><p class="tiny">Los archivos JSON son instantáneas publicadas; actualizar esta pantalla no equivale a recibir resultados minuto a minuto del proveedor.</p></section>
+<section class="panel faq"><h3>Qué significa cada dato</h3><div id="methodNotes"><p>La muestra es el número de encuentros documentados. N/D significa que el dato no figura en el archivo.</p></div><div class="divider"></div><p><a href="./fuentes.html">Abrir auditoría de fuentes →</a></p></section>
+</aside>
+</div>
+</main>
+<footer class="foot"><div class="wrap">APOSTARDO 5.5 · Laboratorios de análisis descriptivo · Horarios y fechas interpretados en America/Santiago · Cada métrica indica su muestra. No se realizan predicciones.</div></footer>
+<script type="module">
+/* APOSTARDO 5.5 — Núcleo estadístico puro. Sin dependencias ni peticiones externas.
+ * Valores inexistentes => null, NUNCA 0. No extrapolar ni producir pronósticos.
+ */
+export const TZ = 'America/Santiago';
+export const SPORTS = {
+  football: {label:'Fútbol', icon:'⚽', a:'Local', b:'Visitante', feeds:[
+    {id:'football',label:'football-data.org',url:'./data/football.json'},
+    {id:'southamerica',label:'TheSportsDB · Sudamérica',url:'./data/football-southamerica.json'},
+    {id:'openfootball',label:'OpenFootball · Historial',url:'./data/openfootball.json'}]},
+  nba:{label:'NBA',icon:'🏀',a:'Local',b:'Visitante',feeds:[
+    {id:'nba',label:'NBA · Recolectores',url:'./data/nba.json'}]},
+  tennis:{label:'Tenis',icon:'🎾',a:'Jugador A',b:'Jugador B',feeds:[
+    {id:'tennis',label:'Tenis · Recolectores',url:'./data/tennis.json'}]},
+  mma:{label:'MMA / UFC',icon:'🥊',a:'Esquina A',b:'Esquina B',feeds:[
+    {id:'mma',label:'MMA/UFC · Recolectores',url:'./data/mma.json'}]}
+};
+export const METRICS = {
+  football:[
+    ['goals_for','Goles a favor','goles'],['goals_against','Goles en contra','goles'],
+    ['half_goals_for','Goles 1.er tiempo','goles'],['second_goals_for','Goles 2.º tiempo','goles'],
+    ['shots','Remates','eventos'],['shots_on_target','Tiros al arco','eventos'],
+    ['corners','Córners','eventos'],['fouls','Faltas','eventos'],
+    ['tackles','Entradas','eventos'],['yellow_cards','Tarjetas amarillas','eventos'],
+    ['red_cards','Tarjetas rojas','eventos']],
+  nba:[
+    ['points_for','Puntos anotados','puntos'],['points_against','Puntos concedidos','puntos'],
+    ['q1','Puntos 1.er cuarto','puntos'],['q2','Puntos 2.º cuarto','puntos'],
+    ['q3','Puntos 3.er cuarto','puntos'],['q4','Puntos 4.º cuarto','puntos'],
+    ['assists','Asistencias','eventos'],['rebounds','Rebotes','eventos'],
+    ['turnovers','Pérdidas','eventos'],['efg_pct','eFG%','porcentaje'],
+    ['ts_pct','TS%','porcentaje'],['off_rating','Rating ofensivo','por100'],
+    ['def_rating','Rating defensivo','por100']],
+  tennis:[
+    ['aces','Aces','eventos'],['double_faults','Dobles faltas','eventos'],
+    ['first_serve_pct','Primer servicio dentro','porcentaje'],
+    ['first_serve_points_pct','Puntos ganados con 1.er saque','porcentaje'],
+    ['second_serve_points_pct','Puntos ganados con 2.º saque','porcentaje'],
+    ['return_points_pct','Puntos ganados al resto','porcentaje'],
+    ['break_saved_pct','Puntos de quiebre salvados','porcentaje'],
+    ['sets_won','Sets ganados','eventos']],
+  mma:[
+    ['sig_landed','Golpes significativos conectados','eventos'],
+    ['sig_attempted','Golpes significativos intentados','eventos'],
+    ['sig_accuracy','Precisión de golpeo significativo','porcentaje'],
+    ['knockdowns','Knockdowns','eventos'],
+    ['td_landed','Derribos completados','eventos'],
+    ['td_attempted','Derribos intentados','eventos'],
+    ['td_accuracy','Precisión de derribos','porcentaje'],
+    ['submission_attempts','Intentos de sumisión','eventos'],
+    ['control_seconds','Control en suelo','segundos']]
+};
+const ALIASES = {
+ shots:['shots','total_shots','totalShots'],shots_on_target:['shots_on_target','shots_on_goal','shotsOnGoal'],
+ corners:['corners','corner_kicks','cornerKicks'],fouls:['fouls','fouls_committed'],
+ tackles:['tackles','total_tackles'],yellow_cards:['yellow_cards','yellowCards'],red_cards:['red_cards','redCards'],
+ assists:['assists','ast'],rebounds:['rebounds','reb','total_rebounds'],turnovers:['turnovers','tov'],
+ fgm:['fgm','field_goals_made'],fga:['fga','field_goals_attempted'],
+ tpm:['tpm','three_pointers_made','fg3m','three_points_made'],fta:['fta','free_throws_attempted'],
+ oreb:['oreb','offensive_rebounds'],pts:['pts','points'], possessions:['possessions','team_possessions'],
+ aces:['aces','ace'],double_faults:['double_faults','doubleFaults'],
+ first_serve_pct:['first_serve_pct','first_serve_percentage','firstServePercentage'],
+ first_serve_in:['first_serve_in','first_serves_in'],first_serve_total:['service_points','serve_points_total'],
+ first_serve_points_won:['first_serve_points_won'],first_serve_points_total:['first_serve_points_total'],
+ second_serve_points_won:['second_serve_points_won'],second_serve_points_total:['second_serve_points_total'],
+ return_points_won:['return_points_won'],return_points_total:['return_points_total'],
+ break_points_saved:['break_points_saved'],break_points_faced:['break_points_faced'],
+ sig_landed:['sig_landed','significant_strikes_landed','sig_strikes_landed','sigStrikesLanded'],
+ sig_attempted:['sig_attempted','significant_strikes_attempted','sig_strikes_attempted','sigStrikesAttempted'],
+ knockdowns:['knockdowns','kd'],td_landed:['td_landed','takedowns_landed','takedowns_completed'],
+ td_attempted:['td_attempted','takedowns_attempted'],
+ submission_attempts:['submission_attempts','sub_att'],control_seconds:['control_seconds','control_time_seconds']
+};
+export function numeric(v){if(typeof v==='number')return Number.isFinite(v)?v:null;if(typeof v!=='string')return null;
+ const x=v.trim().replace('%','');if(!x||!/^[-+]?\d+(?:[.,]\d+)?$/.test(x))return null;const n=Number(x.replace(',','.'));return Number.isFinite(n)?n:null;}
+export function nameKey(v){return String(v||'').normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase().replace(/\b(fc|cf|afc|football club|s\.a\.)\b/g,'').replace(/[^a-z0-9]/g,'');}
+export function santiagoDate(x){if(!x)return '';if(/^\d{4}-\d{2}-\d{2}$/.test(String(x)))return String(x);
+ const d=new Date(x);if(!Number.isFinite(d.getTime()))return '';
+ const parts=new Intl.DateTimeFormat('en-GB',{timeZone:TZ,year:'numeric',month:'2-digit',day:'2-digit'}).formatToParts(d);
+ const p=Object.fromEntries(parts.map(x=>[x.type,x.value]));return `${p.year}-${p.month}-${p.day}`;}
+export function normalize(e,sport,feed){if(!e||typeof e!=='object')return null;
+ const home=String(e.home??e.homeTeam?.name??e.team1??e.participantA??e.player1??e.fighter1??'').trim();
+ const away=String(e.away??e.awayTeam?.name??e.team2??e.participantB??e.player2??e.fighter2??'').trim();
+ const date=String(e.date??e.utcDate??e.start_time??e.startTime??'').trim();
+ if(!home||!away||!santiagoDate(date))return null;
+ return {...e,home,away,date,sport,league:String(e.league??e.competition??e.tournament??e.event??'Competición N/D'),
+  id:String(e.id??`${feed}-${date}-${home}-${away}`),source:String(e.source||feed||'Fuente no identificada'),source_id:feed};}
+export function score(e){const s=e?.score;if(!s||typeof s!=='object'||Array.isArray(s))return null;
+ const a=numeric(s.home??s.a??s.team1??s.player1),b=numeric(s.away??s.b??s.team2??s.player2);
+ if(a===null||b===null||!Number.isInteger(a)||!Number.isInteger(b)||a<0||b<0)return null;return [a,b];}
+export function completed(e){const st=String(e?.status||'').toUpperCase();return ['FINISHED','FINAL','COMPLETED','FT','ENDED','CLOSED','AET','PEN'].includes(st)||
+ (score(e)!==null&&!['LIVE','IN_PLAY','SCHEDULED','TIMED','NS','POSTPONED','CANCELLED'].includes(st));}
+export function surface(e){const s=String(e?.surface??e?.court_surface??'').toLowerCase();
+ if(/clay|arcilla|terre battue/.test(s))return 'clay';if(/grass|césped|cesped/.test(s))return 'grass';if(/hard|dura|acrylic/.test(s))return 'hard';if(/carpet|moqueta/.test(s))return 'carpet';return 'unknown';}
+export function dedupe(events){const map=new Map();for(const e of events){const k=[e.sport,santiagoDate(e.date),nameKey(e.home),nameKey(e.away)].join('|');
+ const old=map.get(k);if(!old){map.set(k,e);continue;}
+ const oldScore=score(old),newScore=score(e),oldRich=Object.keys(old.statistics||{}).length, newRich=Object.keys(e.statistics||{}).length;
+ if((!oldScore&&newScore)||((Boolean(oldScore)===Boolean(newScore))&&newRich>oldRich))map.set(k,e);}
+ return [...map.values()].sort((a,b)=>String(b.date).localeCompare(String(a.date)));}
+export function participants(events){return [...new Set(events.flatMap(e=>[e.home,e.away]))].sort((a,b)=>a.localeCompare(b,'es'));}
+export function sideOf(e,who){const k=nameKey(who);if(k&&nameKey(e.home)===k)return 'home';if(k&&nameKey(e.away)===k)return 'away';return null;}
+export function opponent(e,who){const s=sideOf(e,who);return s==='home'?e.away:s==='away'?e.home:'';}
+export function past(events,who,{league='',surfaceFilter='all',cutoff='',n=10}={}){
+ const list=events.filter(e=>sideOf(e,who)&&completed(e)&&(!league||e.league===league)&&
+  (surfaceFilter==='all'||surface(e)===surfaceFilter)&&(!cutoff||santiagoDate(e.date)<=cutoff));
+ return list.sort((a,b)=>String(b.date).localeCompare(String(a.date))).slice(0,n);}
+export function headToHead(events,a,b,{cutoff='',n=5,surfaceFilter='all'}={}){
+ if(!a||!b||nameKey(a)===nameKey(b))return [];
+ return events.filter(e=>completed(e)&&[nameKey(e.home),nameKey(e.away)].sort().join('|')===[nameKey(a),nameKey(b)].sort().join('|')&&
+ (surfaceFilter==='all'||surface(e)===surfaceFilter)&&(!cutoff||santiagoDate(e.date)<=cutoff)).sort((x,y)=>String(y.date).localeCompare(String(x.date))).slice(0,n);}
+function lookupIn(o,key){if(!o||typeof o!=='object')return undefined;for(const alias of [key,...(ALIASES[key]||[])])if(Object.hasOwn(o,alias))return o[alias];return undefined;}
+export function rawSide(e,key,side){if(!side)return null;
+ const stores=[e.statistics,e.stats,e.boxscore,e.metrics,e.team_stats,e];
+ for(const o of stores){if(!o||typeof o!=='object')continue;
+  const v=lookupIn(o,key);
+  if(v!==undefined){if(v&&typeof v==='object'){const val=v[side]??v[side==='home'?'a':'b']??v[side==='home'?'team1':'team2'];const n=numeric(val);if(n!==null)return n;} }
+  const perSide=o[side]??o[side==='home'?'team1':'team2']??o[side==='home'?'homeTeam':'awayTeam'];
+  if(perSide&&typeof perSide==='object'){const n=numeric(lookupIn(perSide,key));if(n!==null)return n;}
+ }
+ const o=e[side+'_stats']??e[side+'Stats'];return numeric(lookupIn(o,key));}
+function ratio(a,b){return a!==null&&b!==null&&b>0&&a>=0&&a<=b?100*a/b:null;}
+function validPercent(p){if(p===null)return null;if(p>=0&&p<=1)return p*100;if(p>=0&&p<=100)return p;return null;}
+export function period(e,side,i,sport){const keys=sport==='nba'?['q'+i,'quarter'+i,'quarter_'+i]:sport==='football'?['half'+i,'half_'+i,'h'+i]:['set'+i,'set_'+i];
+ for(const k of keys){const x=rawSide(e,k,side);if(x!==null)return x;}
+ const data=sport==='nba'?(e.quarters??e.periods):sport==='tennis'?(e.sets??e.set_scores):null;
+ if(Array.isArray(data)){const x=data[i-1];if(x){const v=x[side]??x[side==='home'?'a':'b'];const n=numeric(v);if(n!==null)return n;}}
+ return null;}
+export function metric(e,who,key){const side=sideOf(e,who);if(!side)return null;const other=side==='home'?'away':'home',sc=score(e),val=sc?sc[side==='home'?0:1]:null,against=sc?sc[side==='home'?1:0]:null;
+ if(key==='goals_for'||key==='points_for')return val;
+ if(key==='goals_against'||key==='points_against')return against;
+ if(key==='half_goals_for'||key==='second_goals_for'){
+  const half=e.half_time??e.halftime??e.halfTime;const h=half?numeric(half[side]??half[side==='home'?'a':'b']):period(e,side,1,'football');
+  if(key==='half_goals_for')return h;
+  return val!==null&&h!==null&&val>=h?val-h:null;}
+ if(/^q[1-4]$/.test(key))return period(e,side,Number(key[1]),'nba');
+ if(key==='efg_pct'){
+  const fgm=rawSide(e,'fgm',side),fga=rawSide(e,'fga',side),tpm=rawSide(e,'tpm',side);
+  return fgm!==null&&tpm!==null&&fga!==null&&fga>0?100*(fgm+0.5*tpm)/fga:null;}
+ if(key==='ts_pct'){
+  const pts=rawSide(e,'pts',side)??val,fga=rawSide(e,'fga',side),fta=rawSide(e,'fta',side);
+  const d=fga!==null&&fta!==null?2*(fga+0.44*fta):null;return pts!==null&&d!==null&&d>0?100*pts/d:null;}
+ if(key==='off_rating'||key==='def_rating'){
+  const points=key==='off_rating'?val:against;
+  const pos=rawSide(e,'possessions',key==='off_rating'?side:other);
+  return points!==null&&pos!==null&&pos>0?100*points/pos:null;}
+ if(key==='first_serve_pct'){
+  const pct=rawSide(e,key,side);return pct!==null?validPercent(pct):ratio(rawSide(e,'first_serve_in',side),rawSide(e,'first_serve_total',side));}
+ if(key==='first_serve_points_pct')return ratio(rawSide(e,'first_serve_points_won',side),rawSide(e,'first_serve_points_total',side));
+ if(key==='second_serve_points_pct')return ratio(rawSide(e,'second_serve_points_won',side),rawSide(e,'second_serve_points_total',side));
+ if(key==='return_points_pct')return ratio(rawSide(e,'return_points_won',side),rawSide(e,'return_points_total',side));
+ if(key==='break_saved_pct')return ratio(rawSide(e,'break_points_saved',side),rawSide(e,'break_points_faced',side));
+ if(key==='sets_won'){const setArr=e.sets??e.set_scores;if(Array.isArray(setArr))return setArr.filter(s=>s&&numeric(s[side])!==null&&numeric(s[other])!==null&&numeric(s[side])>numeric(s[other])).length;
+  return rawSide(e,'sets_won',side);}
+ if(key==='sig_accuracy')return ratio(rawSide(e,'sig_landed',side),rawSide(e,'sig_attempted',side));
+ if(key==='td_accuracy')return ratio(rawSide(e,'td_landed',side),rawSide(e,'td_attempted',side));
+ return rawSide(e,key,side);}
+export function summary(values){const a=values.filter(Number.isFinite).sort((x,y)=>x-y);if(!a.length)return null;const n=a.length,mean=a.reduce((s,x)=>s+x,0)/n;
+ return {n,mean,median:n%2?a[(n-1)/2]:(a[n/2-1]+a[n/2])/2,min:a[0],max:a[n-1],range:a[n-1]-a[0],std:n>1?Math.sqrt(a.reduce((s,x)=>s+(x-mean)**2,0)/(n-1)):0};}
+export function summarize(events,who,sport){return METRICS[sport].map(([key,label,unit])=>{const values=events.map(e=>metric(e,who,key));return {key,label,unit,total:events.length,stats:summary(values),values};});}
+export function resultFor(e,who){const s=sideOf(e,who);if(!s)return '—';const st=String(e.status||'').toUpperCase();if(/^(NC|NO_CONTEST|NO CONTEST|DRAW|DRA|CANCELLED|POSTPONED)$/.test(st))return st;
+ const v=score(e);if(v){const a=v[s==='home'?0:1],b=v[s==='home'?1:0];return a>b?'Victoria':a<b?'Derrota':'Empate';}
+ const w=String(e.winner??e.winner_name??e.winnerName??'');if(!w)return 'Resultado N/D';if(nameKey(w)===nameKey(who))return 'Victoria';if(nameKey(w)===nameKey(opponent(e,who)))return 'Derrota';return 'Resultado N/D';}
+export function formatMetric(n,unit='eventos'){if(!Number.isFinite(n))return 'N/D';const nf=new Intl.NumberFormat('es-CL',{minimumFractionDigits:1,maximumFractionDigits:1});return nf.format(n)+(unit==='porcentaje'?'%':unit==='segundos'?' s':'');}
+
+const $=s=>document.querySelector(s), all=s=>[...document.querySelectorAll(s)];
+const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const fmtNum=n=>Number.isFinite(n)?new Intl.NumberFormat('es-CL',{maximumFractionDigits:1,minimumFractionDigits:1}).format(n):'N/D';
+const fmtDate=d=>{const k=santiagoDate(d);return k?k.split('-').reverse().join('-'):'Fecha N/D'};
+const validLink=s=>{try{const u=new URL(s);return ['http:','https:'].includes(u.protocol)?u.href:''}catch{return ''}};
+const qs=new URLSearchParams(location.search);const initialSport=qs.get('sport');
+const S={sport:SPORTS[initialSport]?initialSport:'football',view:'metrics',trMetric:null,feeds:{},records:{},activeRequest:0,loading:false};
+for(const id of Object.keys(SPORTS))S.records[id]=[];
+function conf(){return SPORTS[S.sport]}
+function feedStateFor(sport){return SPORTS[sport].feeds.map(f=>S.feeds[f.id]||{...f,state:'idle',events:[],generated_at:''})}
+function pool(){return S.records[S.sport]||[]}
+function sourceLabel(v){return {ok:'Disponible',empty:'Sin registros',missing:'No publicado',error:'Error de lectura',loading:'Cargando…'}[v]||v}
+function showSrc(){const sources=feedStateFor(S.sport);$('#sourceList').innerHTML=sources.map(s=>`<div class="sourcerow"><strong>${esc(s.label)} <span class="${s.state==='ok'?'ok':s.state==='error'?'bad':'warn'}">· ${esc(sourceLabel(s.state))}</span></strong><small>${Number(s.events?.length||0).toLocaleString('es-CL')} encuentros · Publicado: ${esc(s.generated_at?s.generated_at.slice(0,19).replace('T',' '):'N/D')} UTC</small>${s.error?`<small class="warn">${esc(s.error)}</small>`:''}</div>`).join('');
+ const count=pool().length,finished=pool().filter(completed).length;
+ $('#coveragePill').textContent=`${count.toLocaleString('es-CL')} registros · ${finished.toLocaleString('es-CL')} cerrados`;
+ $('#loadText').textContent=S.loading?`Cargando ${conf().label}…`:`${conf().label}: ${count.toLocaleString('es-CL')} encuentros únicos disponibles`;
+ $('#loadMeta').textContent=S.loading?'Consultando JSON…':`Datos de ${sources.filter(x=>x.state==='ok').length}/${sources.length} fuentes`;
+}
+function methodNotes(){const notes={
+ football:['Goles: resultados finalizados. Primera y segunda mitad solo si existe un marcador parcial registrado.','Córners, remates, faltas y tarjetas se muestran N/D mientras los archivos no contengan esas estadísticas.','Los equipos con nombres distintos entre proveedores pueden aparecer separados; no se inventan equivalencias.'],
+ nba:['Pace y ratings por 100 posesiones requieren un recuento de posesiones válido; no se deducen del marcador.','eFG% = (FGM + 0,5×3PM)/FGA. TS% = puntos/[2×(FGA + 0,44×FTA)].','Cada cuarto solo se muestra si está documentado en el archivo de partidos.'],
+ tennis:['Separa dura, arcilla y césped. No se calcula una media mezclada cuando hay filtro de superficie.','Porcentajes de servicio y resto se basan en registros conocidos; N/D no equivale a cero.','Las estadísticas golpe a golpe requerirán eventos licenciados, aún no presentes en los JSON publicados.'],
+ mma:['Diferencia entre golpes significativos conectados e intentados. La precisión solo se calcula con ambas cifras.','Los resultados sin marcador se clasifican únicamente si existe ganador documentado. Los empates y no-contest se mantienen.','Desglose por asaltos y tiempo de control solo cuando el feed incluya esas variables.']};
+ $('#methodNotes').innerHTML=notes[S.sport].map(x=>`<p>• ${esc(x)}</p>`).join('');}
+function currentSelection(){return {a:$('#participantA').value,b:$('#participantB').value,n:Number($('#sampleN').value)||10,league:$('#league').value,surfaceFilter:S.sport==='tennis'?$('#surface').value:'all',cutoff:$('#cutoff').value};}
+function populateSelectors(reset=false){const old=currentSelection(),events=pool(), leagues=[...new Set(events.map(e=>e.league))].sort((a,b)=>a.localeCompare(b,'es'));
+ const league=reset?'':old.league;
+ $('#league').innerHTML='<option value="">Todas las competiciones</option>'+leagues.map(l=>`<option value="${esc(l)}">${esc(l)}</option>`).join('');$('#league').value=league;
+ const within=events.filter(e=>!$('#league').value||e.league===$('#league').value);const persons=participants(within);
+ const standings=new Map();for(const e of within){if(!completed(e))continue;for(const n of [e.home,e.away])standings.set(n,(standings.get(n)||0)+1)}
+ const popular=[...persons].sort((a,b)=>(standings.get(b)||0)-(standings.get(a)||0)||a.localeCompare(b,'es'));
+ const select=(el,val,other)=>{el.innerHTML='<option value="">Selecciona participante</option>'+persons.map(p=>`<option value="${esc(p)}">${esc(p)}</option>`).join('');el.value=(!reset&&persons.includes(val))?val:(popular.find(x=>x!==other)||'');};
+ select($('#participantA'),reset?'':old.a,old.b);select($('#participantB'),reset?'':old.b,$('#participantA').value);
+ if($('#participantA').value===$('#participantB').value){$('#participantB').value=popular.find(p=>p!==$('#participantA').value)||'';}
+}
+async function loadSport(sport,{force=false}={}){const sid=++S.activeRequest;S.loading=true;showSrc();
+ const jobs=SPORTS[sport].feeds.map(async f=>{
+  if(!force&&S.feeds[f.id]?.state==='ok')return;
+  S.feeds[f.id]={...f,...S.feeds[f.id],state:'loading'};if(S.sport===sport)showSrc();
+  const controller=new AbortController(),timer=setTimeout(()=>controller.abort(),12000);
+  try{const response=await fetch(f.url+(force?`?refresh=${Date.now()}`:''),{signal:controller.signal,cache:'no-store'});
+   if(!response.ok)throw Error(`HTTP ${response.status}`);const raw=await response.json();if(!raw||!Array.isArray(raw.events))throw Error('Formato JSON inválido: se espera events[]');
+   const norm=raw.events.map(e=>normalize(e,sport,f.id)).filter(Boolean);if(!norm.length){S.feeds[f.id]={...f,state:'empty',events:[],generated_at:raw.generated_at||'',error:'Archivo válido, sin encuentros reconocibles'};return;}
+   S.feeds[f.id]={...f,state:'ok',events:norm,generated_at:raw.generated_at||raw.updated_at||'',error:''};
+  }catch(e){const prev=S.feeds[f.id]?.events||[];S.feeds[f.id]={...f,state:prev.length?'ok':e.message.includes('404')?'missing':'error',events:prev,generated_at:S.feeds[f.id]?.generated_at||'',error:prev.length?'Usando datos en memoria: '+e.message:e.message};}
+  finally{clearTimeout(timer)}
+ });
+ await Promise.allSettled(jobs);
+ S.records[sport]=dedupe(SPORTS[sport].feeds.flatMap(f=>S.feeds[f.id]?.events||[]));
+ if(S.sport!==sport||sid!==S.activeRequest)return;
+ S.loading=false;showSrc();populateSelectors();drawAnalysis();}
+function selectSport(sport){S.sport=sport;S.view='metrics';S.trMetric=null;$('#sportNav').innerHTML=Object.entries(SPORTS).map(([id,o])=>`<button type="button" role="tab" data-sport="${id}" aria-selected="${id===sport}" tabindex="${id===sport?'0':'-1'}">${o.icon} ${o.label}</button>`).join('');
+ all('[data-sport]').forEach(b=>b.addEventListener('click',()=>{const s=b.dataset.sport;history.replaceState(null,'',location.pathname+'?sport='+encodeURIComponent(s));selectSport(s)}));
+ $('#labTitle').textContent='Laboratorio de '+conf().label;$('#labSub').textContent='Selecciona participantes para calcular únicamente las métricas con respaldo en los archivos.';
+ $('#labelA').textContent=S.sport==='tennis'?'Jugador A':S.sport==='mma'?'Peleador A':'Equipo A';
+ $('#labelB').textContent=S.sport==='tennis'?'Jugador B':S.sport==='mma'?'Peleador B':'Equipo B';
+ $('#surfaceWrap').hidden=S.sport!=='tennis';$('#surface').value='all';$('#league').value='';$('#cutoff').value='';$('#sampleN').value='10';
+ methodNotes();showSrc();populateSelectors(true);drawAnalysis();loadSport(sport);}
+function makeSummary(who,hist,role){const goal=hist[0];return `<div class="profile"><div class="eyebrow">${esc(role)}</div><h3>${esc(who||'Sin selección')}</h3><strong>${hist.length} encuentros</strong><div class="minor">Último registrado: ${goal?fmtDate(goal.date):'N/D'}</div><div class="minor">${goal?esc(goal.league):'Sin resultados suficientes'}</div></div>`;}
+function metricTable(a,b,ha,hb){const ra=summarize(ha,a,S.sport),rb=summarize(hb,b,S.sport);const cv=(r)=>r?.stats?`<strong>${formatMetric(r.stats.mean,r.unit)}</strong><small>Mediana ${formatMetric(r.stats.median,r.unit)} · Mín–máx ${formatMetric(r.stats.min,r.unit)}–${formatMetric(r.stats.max,r.unit)} · Rango ${formatMetric(r.stats.range,r.unit)} · DE ${formatMetric(r.stats.std,r.unit)} · n=${r.stats.n}/${r.total}</small>`:'<span class="muted">N/D <small>Sin registro de esta métrica</small></span>';
+ return `<div class="notice">Cada cifra es un <strong>promedio observado</strong> de los encuentros disponibles. La mediana y el rango se calculan solo con valores conocidos; «n» indica la muestra válida.</div><div class="tablewrap"><table><thead><tr><th>Métrica</th><th>${esc(a||'Participante A')}</th><th>${esc(b||'Participante B')}</th></tr></thead><tbody>${ra.map((r,i)=>`<tr><td class="label">${esc(r.label)}<small>${r.unit==='porcentaje'?'Media de porcentajes observados':r.unit==='por100'?'Por cada 100 posesiones':'Media por encuentro'}</small></td><td>${cv(r)}</td><td>${cv(rb[i])}</td></tr>`).join('')}</tbody></table></div>`;}
+function metaScore(e){const s=score(e);return s?`${s[0]} – ${s[1]}`:e.winner?`Ganador: ${String(e.winner)}`:'Marcador N/D';}
+function matchInfo(e,who){const s=sideOf(e,who),src=validLink(e.source_url);const keys=METRICS[S.sport].filter(([id])=>metric(e,who,id)!==null).slice(0,9);
+ const pieces=keys.map(([id,l,u])=>`${l}: ${formatMetric(metric(e,who,id),u)}`);
+ return `<article class="match"><div class="matchhead"><span>${esc(fmtDate(e.date))} · ${esc(e.league)}</span><span>${esc(e.status||'Estado N/D')}</span></div><div class="line"><strong>${esc(e.home)} vs. ${esc(e.away)}</strong><strong class="hl">${esc(metaScore(e))}</strong></div><div class="tiny">${esc(resultFor(e,who))} · ${esc(e.source)}${S.sport==='tennis'?' · Superficie: '+esc(surface(e)):''}</div><details><summary>Detalle y procedencia</summary><p>${pieces.length?esc(pieces.join(' · ')):'Sin estadísticas adicionales para este partido.'}</p><p>Fuente: ${src?`<a target="_blank" rel="noopener noreferrer" href="${esc(src)}">${esc(e.source)}</a>`:esc(e.source)} · ID ${esc(e.id)}</p>${detailPeriods(e,who)}${detailPlayers(e)}</details></article>`;}
+function detailPlayers(e){
+ const raw=e.players??e.player_stats??e.box_score?.players??e.boxscore?.players;
+ if(!Array.isArray(raw)||!raw.length)return '';
+ const sample=raw.slice(0,18).filter(x=>x&&typeof x==='object');
+ if(!sample.length)return '';
+ const body=sample.map(x=>{
+  const name=String(x.name??x.player_name??x.player??'N/D');
+  const pts=x.pts??x.points,reb=x.rebounds??x.reb,ast=x.assists??x.ast;
+  const info=[pts===undefined?null:`PTS ${pts}`,reb===undefined?null:`REB ${reb}`,ast===undefined?null:`AST ${ast}`].filter(Boolean).join(' · ');
+  return `<li>${esc(name)}${info?' · '+esc(info):''}</li>`;
+ }).join('');
+ return `<p>Jugadores documentados en el archivo (hasta 18):</p><ul>${body}</ul>`;
+}
+function detailPeriods(e,who){const s=sideOf(e,who);if(!s)return '';
+ if(S.sport==='nba'){const arr=[1,2,3,4].map(n=>period(e,s,n,'nba'));return arr.some(x=>x!==null)?`<p>Cuartos: ${arr.map((x,i)=>`Q${i+1} ${x===null?'N/D':x}`).join(' · ')}</p>`:'';}
+ if(S.sport==='tennis'){const arr=e.sets??e.set_scores;if(Array.isArray(arr))return `<p>Sets: ${arr.map((x,i)=>`S${i+1} ${esc(String(x?.home??'N/D'))}–${esc(String(x?.away??'N/D'))}`).join(' · ')}</p>`;}
+ if(S.sport==='mma'){const rounds=e.round_stats??e.rounds;if(Array.isArray(rounds))return `<p>Asaltos registrados: ${rounds.length}. ${rounds.map((r,i)=>`R${r.round??i+1}: ${r[s]?.sig_landed??r[s]?.significant_strikes_landed??'N/D'} golpes sig.`).join(' · ')}</p>`;}
+ if(S.sport==='football'){const h=e.half_time??e.halftime;if(h)return `<p>Descanso: ${esc(String(h.home??'N/D'))}–${esc(String(h.away??'N/D'))}</p>`;}
+ return '';}
+function trendChart(who,hist,key,variant){const data=[...hist].reverse().map(e=>({date:fmtDate(e.date),val:metric(e,who,key)}));const avail=data.filter(x=>x.val!==null);if(!avail.length)return `<div class="empty">${esc(who||'Participante')} · Esta métrica no está incluida en el feed.</div>`;
+ const max=Math.max(1,...avail.map(x=>x.val));return `<div class="trendchart">${data.map(d=>`<div class="trenditem"><span>${esc(d.date)}</span><div class="track"><div class="fill ${variant==='b'?'b':''}" role="img" aria-label="${esc(d.date)}: ${esc(d.val===null?'sin dato':fmtNum(d.val))}" style="width:${d.val===null?0:Math.max(1,100*d.val/max)}%"></div></div><span>${d.val===null?'N/D':fmtNum(d.val)}</span></div>`).join('')}</div>`;}
+function makeTabs(){return `<div class="viewtabs" role="tablist" aria-label="Secciones de análisis">${[['metrics','Métricas'],['trends','Evolución'],['events','Encuentros'],['sources','Fuentes']].map(([id,l])=>`<button type="button" role="tab" data-view="${id}" aria-selected="${S.view===id}">${l}</button>`).join('')}</div>`;}
+function eventsView(a,b,ha,hb,h2h){const section=(title,arr,who)=>`<div><h3>${esc(title)}</h3><div class="stack">${arr.length?arr.map(e=>matchInfo(e,who)).join(''):'<div class="empty">Sin encuentros registrados.</div>'}</div></div>`;
+ return `<h3>Enfrentamientos directos (${h2h.length}/5)</h3><p class="tiny">Solo se muestran partidos de ambos participantes presentes en los archivos; no se infieren enfrentamientos ausentes.</p><div class="stack">${h2h.length?h2h.map(e=>matchInfo(e,a)).join(''):'<div class="empty">No hay enfrentamientos directos documentados en esta muestra.</div>'}</div><div class="divider"></div><div class="rowsplit">${section('Historial de '+a,ha,a)}${section('Historial de '+b,hb,b)}</div>`;}
+function sourcesView(){const feeds=feedStateFor(S.sport);return `<h3>Procedencia y cobertura</h3><p class="tiny">Estos datos pertenecen a archivos publicados en GitHub Pages; la fecha del archivo no confirma que el proveedor esté en vivo.</p><div class="sourcelist">${feeds.map(f=>`<div class="sourcerow"><strong>${esc(f.label)} · ${esc(sourceLabel(f.state))}</strong><small>Registros: ${(f.events?.length||0).toLocaleString('es-CL')} · Fecha de generación: ${esc(f.generated_at||'N/D')}</small><small>Archivo: ${esc(f.url)}${f.error?' · '+esc(f.error):''}</small></div>`).join('')}</div>`;}
+function drawAnalysis(){if(S.loading&&!pool().length){$('#analysis').innerHTML='<div class="empty"><h3>Consultando archivos deportivos</h3><p>Los resultados aparecerán cuando se complete la lectura de las fuentes.</p></div>';return;}
+ const list=pool(),{a,b,n,league,surfaceFilter,cutoff}=currentSelection();const main=$('#analysis');
+ if(!list.length){$('#analysisMeta').textContent='0 partidos disponibles';main.innerHTML=`<div class="empty"><h3>Sin datos de ${esc(conf().label)}</h3><p>Este laboratorio está construido, pero el repositorio todavía no publica encuentros válidos para esta disciplina. Consulta las fuentes o activa el recolector correspondiente.</p><a href="./fuentes.html">Revisar la auditoría de fuentes →</a></div>`;return;}
+ if(!a||!b||nameKey(a)===nameKey(b)){main.innerHTML='<div class="empty">Selecciona dos participantes distintos para comparar sus antecedentes documentados.</div>';return;}
+ const ha=past(list,a,{league,surfaceFilter,cutoff,n}),hb=past(list,b,{league,surfaceFilter,cutoff,n}),h2h=headToHead(list,a,b,{cutoff,n:5,surfaceFilter});
+ $('#analysisMeta').textContent=`${ha.length} + ${hb.length} encuentros · H2H ${h2h.length}`;
+ const totalKnown=[...ha,...hb].filter(e=>score(e)!==null).length;
+ const header=`<div class="summarygrid"><div class="tile"><span>Muestra A</span><b>${ha.length}/${n}</b></div><div class="tile"><span>Muestra B</span><b>${hb.length}/${n}</b></div><div class="tile"><span>Marcadores disponibles</span><b>${totalKnown}/${ha.length+hb.length}</b></div></div><div class="profilegrid">${makeSummary(a,ha,'PARTICIPANTE A')}${makeSummary(b,hb,'PARTICIPANTE B')}</div>`;
+ let content='';if(S.view==='metrics')content=metricTable(a,b,ha,hb);
+ else if(S.view==='trends'){
+  const initial=METRICS[S.sport][0][0];S.trMetric=METRICS[S.sport].some(x=>x[0]===S.trMetric)?S.trMetric:initial;const label=METRICS[S.sport].find(x=>x[0]===S.trMetric)?.[1]||'';
+  content=`<h3>Evolución cronológica</h3><p class="tiny">Solo valores observados en los últimos encuentros de cada participante.</p><div class="field" style="max-width:420px;margin-bottom:17px"><label for="trendMetric">Estadística</label><select id="trendMetric">${METRICS[S.sport].map(([k,l])=>`<option value="${k}" ${S.trMetric===k?'selected':''}>${esc(l)}</option>`).join('')}</select></div><div class="rowsplit"><div><h3>${esc(a)}</h3>${trendChart(a,ha,S.trMetric,'a')}</div><div><h3>${esc(b)}</h3>${trendChart(b,hb,S.trMetric,'b')}</div></div><p class="meta">Métrica: ${esc(label)}. Las barras tienen escala independiente por participante; consulta los valores para comparar magnitudes.</p>`;}
+ else if(S.view==='events')content=eventsView(a,b,ha,hb,h2h);
+ else content=sourcesView();
+ main.innerHTML=header+makeTabs()+content;
+ all('[data-view]').forEach(b=>b.addEventListener('click',()=>{S.view=b.dataset.view;drawAnalysis()}));
+ $('#trendMetric')?.addEventListener('change',e=>{S.trMetric=e.target.value;drawAnalysis()});
+}
+function exportCSV(){const {a,b,n,league,cutoff,surfaceFilter}=currentSelection();if(!a||!b){$('#loadText').textContent='Selecciona dos participantes para exportar.';return;}
+ const ha=past(pool(),a,{league,cutoff,surfaceFilter,n}),hb=past(pool(),b,{league,cutoff,surfaceFilter,n});
+ const ra=summarize(ha,a,S.sport),rb=summarize(hb,b,S.sport);const protect=s=>{let v=String(s??'');if(/^[\s]*[=+@\-\t\r]/.test(v))v="'"+v;return '"'+v.replaceAll('"','""')+'"'};
+ const rows=[['Deporte','Métrica','Unidad','Participante A','Media A','Mediana A','Mín A','Máx A','n A','Participante B','Media B','Mediana B','Mín B','Máx B','n B','Límite temporal','Superficie','Competición']];
+ for(let i=0;i<ra.length;i++){const r=ra[i],t=rb[i],x=r.stats||{},y=t.stats||{};rows.push([conf().label,r.label,r.unit,a,x.mean??'',x.median??'',x.min??'',x.max??'',x.n??0,b,y.mean??'',y.median??'',y.min??'',y.max??'',y.n??0,cutoff||'No definido',surfaceFilter,league||'Todas']);}
+ const csv='\ufeff'+rows.map(row=>row.map(protect).join(';')).join('\r\n');const blob=new Blob([csv],{type:'text/csv;charset=utf-8'});const url=URL.createObjectURL(blob);const link=document.createElement('a');link.href=url;link.download=`APOSTARDO_laboratorio_${S.sport}_${new Date().toISOString().slice(0,10)}.csv`;document.body.append(link);link.click();link.remove();setTimeout(()=>URL.revokeObjectURL(url),1000);}
+$('#sportNav').addEventListener('keydown',e=>{const buttons=all('#sportNav [role=tab]');const at=buttons.indexOf(document.activeElement);if(at<0)return;if(['ArrowRight','ArrowLeft'].includes(e.key)){e.preventDefault();const next=buttons[(at+buttons.length+(e.key==='ArrowRight'?1:-1))%buttons.length];next.click();next.focus();}});
+$('#league').addEventListener('change',()=>{populateSelectors();drawAnalysis()});
+['participantA','participantB','sampleN','surface','cutoff'].forEach(id=>$('#'+id).addEventListener('change',drawAnalysis));
+$('#analyzeBtn').addEventListener('click',drawAnalysis);
+$('#resetBtn').addEventListener('click',()=>{$('#league').value='';$('#sampleN').value='10';$('#surface').value='all';$('#cutoff').value='';S.view='metrics';S.trMetric=null;populateSelectors(true);drawAnalysis()});
+$('#csvBtn').addEventListener('click',exportCSV);
+$('#reloadBtn').addEventListener('click',()=>loadSport(S.sport,{force:true}));
+selectSport(S.sport);
+
+</script>
+</body>
+</html>
