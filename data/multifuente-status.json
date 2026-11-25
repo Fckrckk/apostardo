@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-24T05:34:54.019475Z",
+  "generated_at": "2026-11-25T05:35:33.475285Z",
   "source": "TheSportsDB (API pública v1)",
   "source_url": "https://www.thesportsdb.com/docs/api",
   "provider_key_type": "public",
@@ -7,14 +7,15 @@
   "sports": {
     "football": {
       "status": "parcial",
-      "stored": 51,
-      "new": 2,
-      "received": 51,
-      "accepted": 51,
+      "stored": 52,
+      "new": 1,
+      "received": 48,
+      "accepted": 48,
       "errors": [
         "brasil: HTTP 429",
-        "Estadísticas tsdb-2398550: HTTPError",
-        "Estadísticas tsdb-2398544: HTTPError"
+        "brasil: HTTP 429",
+        "Estadísticas tsdb-2398553: HTTPError",
+        "Estadísticas tsdb-2398550: HTTPError"
       ],
       "requests": [
         {
@@ -34,18 +35,6 @@
           "id": "4627",
           "endpoint": "eventsday.php",
           "params": {
-            "d": "2026-11-23",
-            "l": "4627"
-          },
-          "result": "ok",
-          "received": 0,
-          "accepted": 0
-        },
-        {
-          "league": "Primera División de Chile",
-          "id": "4627",
-          "endpoint": "eventsday.php",
-          "params": {
             "d": "2026-11-24",
             "l": "4627"
           },
@@ -59,6 +48,18 @@
           "endpoint": "eventsday.php",
           "params": {
             "d": "2026-11-25",
+            "l": "4627"
+          },
+          "result": "ok",
+          "received": 0,
+          "accepted": 0
+        },
+        {
+          "league": "Primera División de Chile",
+          "id": "4627",
+          "endpoint": "eventsday.php",
+          "params": {
+            "d": "2026-11-26",
             "l": "4627"
           },
           "result": "ok",
@@ -82,18 +83,6 @@
           "id": "4406",
           "endpoint": "eventsday.php",
           "params": {
-            "d": "2026-11-23",
-            "l": "4406"
-          },
-          "result": "ok",
-          "received": 2,
-          "accepted": 2
-        },
-        {
-          "league": "Primera División Argentina",
-          "id": "4406",
-          "endpoint": "eventsday.php",
-          "params": {
             "d": "2026-11-24",
             "l": "4406"
           },
@@ -114,6 +103,18 @@
           "accepted": 0
         },
         {
+          "league": "Primera División Argentina",
+          "id": "4406",
+          "endpoint": "eventsday.php",
+          "params": {
+            "d": "2026-11-26",
+            "l": "4406"
+          },
+          "result": "ok",
+          "received": 1,
+          "accepted": 1
+        },
+        {
           "league": "Brasileirão Série A",
           "id": "4351",
           "endpoint": "eventsseason.php",
@@ -124,18 +125,6 @@
           "result": "ok",
           "received": 15,
           "accepted": 15
-        },
-        {
-          "league": "Brasileirão Série A",
-          "id": "4351",
-          "endpoint": "eventsday.php",
-          "params": {
-            "d": "2026-11-23",
-            "l": "4351"
-          },
-          "result": "ok",
-          "received": 2,
-          "accepted": 2
         },
         {
           "league": "Brasileirão Série A",
@@ -159,9 +148,20 @@
           },
           "result": "error",
           "error": "HTTP 429"
+        },
+        {
+          "league": "Brasileirão Série A",
+          "id": "4351",
+          "endpoint": "eventsday.php",
+          "params": {
+            "d": "2026-11-26",
+            "l": "4351"
+          },
+          "result": "error",
+          "error": "HTTP 429"
         }
       ],
-      "last_attempt": "2026-11-24T05:34:54.019475Z",
+      "last_attempt": "2026-11-25T05:35:33.475285Z",
       "limitations": "API pública devuelve máximo 3 registros por día y 15 por temporada en cada consulta; cobertura incompleta"
     },
     "nba": {
@@ -193,17 +193,6 @@
           "id": "4387",
           "endpoint": "eventsday.php",
           "params": {
-            "d": "2026-11-23",
-            "l": "4387"
-          },
-          "result": "error",
-          "error": "HTTP 429"
-        },
-        {
-          "league": "NBA",
-          "id": "4387",
-          "endpoint": "eventsday.php",
-          "params": {
             "d": "2026-11-24",
             "l": "4387"
           },
@@ -220,9 +209,20 @@
           },
           "result": "error",
           "error": "HTTP 429"
+        },
+        {
+          "league": "NBA",
+          "id": "4387",
+          "endpoint": "eventsday.php",
+          "params": {
+            "d": "2026-11-26",
+            "l": "4387"
+          },
+          "result": "error",
+          "error": "HTTP 429"
         }
       ],
-      "last_attempt": "2026-11-24T05:34:54.019475Z",
+      "last_attempt": "2026-11-25T05:35:33.475285Z",
       "limitations": "API pública devuelve máximo 3 registros por día y 15 por temporada en cada consulta; cobertura incompleta"
     },
     "tennis": {
@@ -254,17 +254,6 @@
           "id": "4464",
           "endpoint": "eventsday.php",
           "params": {
-            "d": "2026-11-23",
-            "l": "4464"
-          },
-          "result": "error",
-          "error": "HTTP 429"
-        },
-        {
-          "league": "ATP World Tour",
-          "id": "4464",
-          "endpoint": "eventsday.php",
-          "params": {
             "d": "2026-11-24",
             "l": "4464"
           },
@@ -281,9 +270,20 @@
           },
           "result": "error",
           "error": "HTTP 429"
+        },
+        {
+          "league": "ATP World Tour",
+          "id": "4464",
+          "endpoint": "eventsday.php",
+          "params": {
+            "d": "2026-11-26",
+            "l": "4464"
+          },
+          "result": "error",
+          "error": "HTTP 429"
         }
       ],
-      "last_attempt": "2026-11-24T05:34:54.019475Z",
+      "last_attempt": "2026-11-25T05:35:33.475285Z",
       "limitations": "API pública devuelve máximo 3 registros por día y 15 por temporada en cada consulta; cobertura incompleta"
     },
     "mma": {
@@ -315,17 +315,6 @@
           "id": "4443",
           "endpoint": "eventsday.php",
           "params": {
-            "d": "2026-11-23",
-            "l": "4443"
-          },
-          "result": "error",
-          "error": "HTTP 429"
-        },
-        {
-          "league": "UFC",
-          "id": "4443",
-          "endpoint": "eventsday.php",
-          "params": {
             "d": "2026-11-24",
             "l": "4443"
           },
@@ -342,16 +331,28 @@
           },
           "result": "error",
           "error": "HTTP 429"
+        },
+        {
+          "league": "UFC",
+          "id": "4443",
+          "endpoint": "eventsday.php",
+          "params": {
+            "d": "2026-11-26",
+            "l": "4443"
+          },
+          "result": "error",
+          "error": "HTTP 429"
         }
       ],
-      "last_attempt": "2026-11-24T05:34:54.019475Z",
+      "last_attempt": "2026-11-25T05:35:33.475285Z",
       "limitations": "API pública devuelve máximo 3 registros por día y 15 por temporada en cada consulta; cobertura incompleta"
     }
   },
   "errors": [
     "brasil: HTTP 429",
+    "brasil: HTTP 429",
+    "Estadísticas tsdb-2398553: HTTPError",
     "Estadísticas tsdb-2398550: HTTPError",
-    "Estadísticas tsdb-2398544: HTTPError",
     "nba: HTTP 429",
     "nba: HTTP 429",
     "nba: HTTP 429",
